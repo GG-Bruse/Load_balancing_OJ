@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 引入jquery CDN -->
+    <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <title>录题</title>
+    <style>
+        .block_line {
+            text-align: center;
+            font-size: 30px;
+            position: relative;
+            top: 30px;
+        }
+
+        .box1 {
+            position: relative;
+            top: 15px;
+            left: -20px;
+            margin: 0 auto;
+        }
+
+        .box1 tr {
+            width: 900px;
+            height: 70px;
+            position: relative;
+            top: 30px;
+            font-size: 20px;
+        }
+
+        .box2 {
+            position: relative;
+            top: 80px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        input {
+            border: 0;
+            outline: 0;
+            width: 600px;
+            height: 40px;
+            border: 1px solid #7e0000;
+            color: #5f0505;
+            border-radius: 5px;
+        }
+
+        input:hover {
+            background-color: #fdf6f6;
+        }
+
+        textarea:hover {
+            background-color: #fdf6f6;
+        }
+
+        textarea {
+            border: 0;
+            outline: 0;
+            width: 600px;
+            height: 60px;
+            border: 1px solid #7e0000;
+            color: #5f0505;
+            border-radius: 5px;
+        }
+
+        .btn {
+            width: 300px;
+            height: 40px;
+            color: #ffffff;
+            background-color: #752121;
+            border-radius: 5px;
+        }
+
+        .btn:hover {
+            background-color: #5f0505;
+        }
+
+        #btnx {
+            background-color: transparent;
+            border: none;
+            outline: none;
+            color: #ffffff;
+            font-size: 25px;
+            font-family: "宋体";
+            position: absolute;
+            right: 30px;
+            top: 13px;
+        }
+
+        #btn-toggle {
+            background-color: transparent;
+            border: none;
+            outline: none;
+            color: #ffffff;
+            font-size: 25px;
+            font-family: "宋体";
+            position: absolute;
+            right: 125px;
+            top: 13px;
+        }
+    </style>
+</head>
+
+<body style="background-color: #fdf6f6;">
+    <link rel="stylesheet" href="/css/Nb.css">
+    <div class="container">
+        <!-- 导航栏 -->
+        <div class="navbar">
+            <ul class="uu">
+                <li class="ll"><a href=""><img class="logo" src="/图片/logo.png"></a></li>
+                <li class="ll"><a class="xx" href="/administrator.html">首页</a></li>
+                <li class="ll"><a class="xx" href="/add_questions.html" style="border-top: 3px solid #ffffff;">录题</a>
+                </li>
+                <li class="ll"><a class="xx" href="/add_jobs.html">岗位</a></li>
+                <li class="ll"><a id="btnx"></a></li>
+                <li class="ll"><a id="btn-toggle"></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="midden">
+        <div class="block_line">管理员界面</div>
+        <div class="box">
+            <table class="box1">
+                <tr class="in">
+                    <td class="first">题目名称</td>
+                    <td class="second"><input id="title"></input></td>
+                </tr>
+                <tr class="in">
+                    <td class="first">难度</td>
+                    <td class="second"><input id="level"></input></td>
+                </tr>
+                <tr class="area">
+                    <td class="first">描述</td>
+                    <td class="second"><textarea id="desc"></textarea>
+                </tr>
+                <tr class="area">
+                    <td class="first">初始代码</td>
+                    <td class="second"><textarea id="header"></textarea>
+                </tr>
+                <tr class="area">
+                    <td class="first">测试代码</td>
+                    <td class="second"><textarea id="tail"></textarea>
+                </tr>
+                <tr class="in">
+                    <td class="first">时间限制(单位:s)</td>
+                    <td class="second"><input id="cpu"></input>
+                </tr>
+                <tr class="in">
+                    <td class="first">内存大小限制(单位:kb)&nbsp;&nbsp;&nbsp;</td>
+                    <td class="second"><input id="mem"></input></td>
+                </tr>
+            </table>
+            <div class="box2">
+                <button class="btn" onclick="submit()">添加</button>
+            </div>
+        </div>
+    </div>
+    <script>
+
+        function submit() {
+            // 获取信息
+            let title = $("#title").val();
+            if (title == '') {
+                alert('题目名称不能为空');
+                return;
+            }
+            let level = $("#level").val();
+            if (level == '') {
+                alert('题目难度不能为空');
+                return;
+            }
+            let desc = $("#desc").val();
+            if (desc == '') {
+                alert('题目描述不能为空');
+                return;
+            }
+            let header = $("#header").val();
+            if (header == '') {
+                alert('头文件部分不能为空');
+                return;
+            }
+            let tail = $("#tail").val();
+            if (tail == '') {
+                alert('测试代码不能为空');
+                return;
+            }
+            let cpu = $("#cpu").val();
+            if (cpu == '') {
+                alert('时间限制不能为空');
+                return;
+            }
+            let mem = $("#mem").val();
+            if (mem == '') {
+                alert('内存限制不能为空');
+                return;
+            }
+
+            $.ajax({
+                method: 'Post',
+                url: '/add_question',
+                dataType: 'json',
+                contentType: 'application/josn;charset=utf-8',
+
+                data: JSON.stringify({
+                    'Title': title,
+                    'Difficulty': level,
+                    'Describe': desc,
+                    'HeadContent': header,
+                    'TailContent': tail,
+                    'CpuLimit': cpu,
+                    'MemoryLimit': mem
+                }),
+
+                success: function (data) {
+                    console.log(data);
+                    if (data.Result == "success") {
+                        alert('添加成功');
+                        location.href = "/add_questions.html";
+                        window.event.returnValue = false;
+                    }
+                    else {
+                        alert('添加失败');
+                    }
+                }
+            })
+        }
+    </script>
+    <script src="js/script.js"></script>
+    <script>
+        CheckAdministor();
+    </script>
+</body>
+
+</html>

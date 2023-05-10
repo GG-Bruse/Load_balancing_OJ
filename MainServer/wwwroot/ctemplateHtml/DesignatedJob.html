@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 引入jquery CDN -->
+    <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <title>岗位详细</title>
+    <style>
+        * {
+            margin: 0px;
+            /*消除网页默认外边距*/
+            padding: 0px;
+            /*消除网页默认内边距*/
+        }
+
+        html,
+        body {
+            width: 100%;
+            height: 100%;
+            background-color: #fdf6f6;
+        }
+
+        .com {
+            width: 1000px;
+            height: 130px;
+            position: relative;
+            top: 25px;
+            margin: auto;
+            margin-top: 20px;
+            background-color: #fff;
+            border: 1px solid #d7d7d7;
+            box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+            border-radius: 10px;
+        }
+
+        .p1 {
+            position: relative;
+            top: 10px;
+            left: 20px;
+            font-size: 23px;
+            color: #2c7b0f;
+        }
+
+        .p2 {
+            position: relative;
+            top: 15px;
+            left: 40px;
+            font-size: 20px;
+            color: #840f0f;
+        }
+
+        .p3 {
+            float: left;
+            position: relative;
+            top: 25px;
+            left: 20px;
+            font-size: 18px;
+        }
+
+        .p4 {
+            float: left;
+            position: relative;
+            top: 30px;
+            left: 35px;
+            font-size: 15px;
+        }
+
+        .p6 {
+            position: absolute;
+            bottom: 15px;
+            left: 20px;
+            float: left;
+        }
+
+        .need {
+            width: 1000px;
+            height: fit-content;
+            position: relative;
+            top: 55px;
+            margin: auto;
+            margin-top: 20px;
+            background-color: #fff;
+            border: 1px solid #d7d7d7;
+            box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+            border-radius: 10px;
+        }
+
+        .p5 {
+            width: 950px;
+            height: fit-content;
+            overflow: hidden;
+            position: relative;
+            top: 10px;
+            left: 20px;
+            margin-bottom: 50px;
+            font-size: 15px;
+            line-height: 30px;
+            font-weight: bold;
+        }
+
+        #btn-toggle {
+            background-color: transparent;
+            border: none;
+            outline: none;
+            color: #ffffff;
+            font-size: 25px;
+            font-family: "宋体";
+            position: absolute;
+            right: 30px;
+            top: 13px;
+        }
+
+        #btnx {
+            background-color: transparent;
+            border: none;
+            outline: none;
+            color: #ffffff;
+            font-size: 25px;
+            font-family: "宋体";
+            position: absolute;
+            right: 125px;
+            top: 13px;
+        }
+    </style>
+</head>
+
+<body>
+    <link rel="stylesheet" href="/css/Nb.css">
+    <div class="container">
+        <!-- 导航栏 -->
+        <div class="navbar">
+            <ul class="uu">
+                <li class="ll"><a href=""><img class="logo" src="/图片/logo.png"></a></li>
+                <li class="ll"><a class="xx" href="/">首页</a></li>
+                <li class="ll"><a class="xx" href="/all_questions">题库</a></li>
+                <li class="ll"><a class="xx" href="/job_hunt" style="border-bottom: 3px solid #ffffff;">求职</a></li>
+                <li class="ll"><a id="btnx"></a></li>
+                <li class="ll"><a id="btn-toggle"></a></li>
+            </ul>
+        </div>
+        <div class="com">
+            <p>
+                <span class="p1">{{position}}</span>
+                <span class="p2">{{salary}}</span>
+            </p>
+            <p>
+                <span class="p3">{{name}}</span>
+            </p>
+            <p>
+                <span class="p4">{{address}}</span>
+            </p>
+            <p>
+                <span class="p6">{{phone}}</span>
+            </p>
+        </div>
+        <div class="need">
+            <pre class="p5">{{describe}}</pre>
+        </div>
+    </div>
+
+    <script src="../js/script.js"></script>
+    <script>
+        CheckUser();
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,123 @@
+* {
+    margin: 0px;
+    /*消除网页默认外边距*/
+    padding: 0px;
+    /*消除网页默认内边距*/
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.container .navbar {
+    width: 100%;
+    height: 50px;
+    background-color: #750b0b;
+    overflow: hidden;
+    /*给父级标签设置overflow, 取消后续浮动带来的影响*/
+    /* margin: 100px auto 0;  */
+    border-radius: 10px;
+    box-shadow: 0 5px 2px #371010;
+}
+
+.container .navbar .uu {
+    height: 100%;
+    padding: 0 5%;
+    list-style: none;
+    color: #ffffff;
+    display: flex;
+    /* justify-content: space-around; */
+    /* font:bold 16px/10px Arial; */
+
+    margin-left: -30px;
+}
+
+.container .navbar:before {
+    content: "";
+    height: 15px;
+    width: 1px;
+    display: flex;
+    align-self: center;
+    background: linear-gradient(to left, red, black, red) no-repeat right/1px 15px;
+
+}
+
+.container .navbar .uu .ll {
+    height: 100%;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .5);
+    /* background: linear-gradient(red,#a82724,red) no-repeat right/1px 15px;
+     */
+}
+.container .navbar  .chosses{
+    border-bottom: solid 2px #32CA99;
+    color: #32CA99;
+}
+
+.container .navbar .uu .ll:last-of-type {
+    background: none;
+}
+
+.container .navbar .xx {
+    height: 0px;
+    display: inline-block;
+    /*设置a标签为行内块元素*/
+    color: #ffffff;
+    font-size: 25px;
+    font-family: "宋体";
+    line-height: 50px;
+    /*将a标签高度设置与导航栏高度一致，则实现上下居中*/
+    width: 80px;
+    text-decoration: none;
+    /*删去a标签链接下划线*/
+    text-align: center;
+    /*文字居中*/
+    position: absolute;
+    top: 3px;
+}
+
+.container .navbar :hover {
+    /*设置鼠标事件*/
+    color: #cbaaaa;
+    /* transform: rotate(10deg); */
+}
+
+.container .navbar .right {
+    float: right;
+}
+
+.container .content {
+    width: 800px;
+    /* background-color : #ccc; */
+    margin: 0px auto;
+    /*版块居中*/
+    text-align: center;
+    /*文字居中*/
+    margin-top: 20px;
+    /*设置上外边距*/
+}
+
+.container .content .front {
+    display: block;
+    /*设置标签为块级元素：可独占一行并且设置高度宽度等元素*/
+    margin-top: 20px;
+    /*设置上外边距*/
+    text-decoration: none;
+    /*删去a标签链接下划线*/
+}
+
+.logo {
+    position: absolute;
+    top: -3px;
+    left: 65px;
+    vertical-align: middle;
+    overflow: auto;
+    object-fit: cover;
+    width: 50px;
+    height: 50px;
+}

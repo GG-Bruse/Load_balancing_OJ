@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 引入jquery CDN -->
+    <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <title>职位</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        html,
+        body {
+            width: 100%;
+            height: 100%;
+        }
+
+        table {
+            position: relative;
+            font: 20px/50px "微软雅黑";
+            padding: 0;
+            text-align: center;
+            border-collapse: collapse;
+            margin: 0 auto;
+        }
+
+        .questionlist {
+            height: 450px;
+            overflow-y: scroll;
+        }
+
+        th,
+        td {
+            width: 300px;
+            height: 50px;
+            font: 20px/50px "微软雅黑";
+            padding: 0;
+            text-align: center;
+        }
+
+        .na {
+            position: relative;
+            left: 30px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #000000;
+        }
+
+        a:hover {
+            color: #750b0b;
+        }
+
+        .questionlist table tr:nth-child(odd) {
+            background-color: #d1d1d1;
+            border-radius: 10px;
+        }
+
+        .questionlist table tr:nth-child(even) {
+            background-color: #eeeeee;
+            border-radius: 10px;
+        }
+
+        h1 {
+            text-align: center;
+            position: relative;
+            margin-top: 50px;
+            margin-bottom: 30px
+        }
+
+        #btn-toggle {
+            background-color: transparent;
+            border: none;
+            outline: none;
+            color: #ffffff;
+            font-size: 25px;
+            font-family: "宋体";
+            position: absolute;
+            right: 30px;
+            top: 13px;
+        }
+
+        #btnx {
+            background-color: transparent;
+            border: none;
+            outline: none;
+            color: #ffffff;
+            font-size: 25px;
+            font-family: "宋体";
+            position: absolute;
+            right: 125px;
+            top: 13px;
+        }
+    </style>
+</head>
+
+
+<body style="background-color: #fdf6f6;">
+    <link rel="stylesheet" href="../css/Nb.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <div class="container">
+        <!-- 导航栏 -->
+        <div class="navbar">
+            <ul class="uu">
+                <li class="ll"><a href=""><img class="logo" src="/图片/logo.png"></a></li>
+                <li class="ll"><a class="xx" href="/">首页</a></li>
+                <li class="ll"><a class="xx" href="/all_questions">题库</a></li>
+                <li class="ll"><a class="xx" href="/job_hunt" style="border-bottom: 3px solid #ffffff;">求职</a></li>
+                <li class="ll"><a id="btnx"></a></li>
+                <li class="ll"><a id="btn-toggle"></a></li>
+            </ul>
+        </div>
+        <!-- 题目列表 -->
+        <h1>公司列表</h1>
+        <div style=" position: absolute;margin-left:280px;">
+            <table>
+                <tr>
+                    <th class="fritter" style="background-color: #ffffff;">公司</th>
+                    <th class="fritter" style="background-color: #ffffff;">职位</th>
+                    <th class="fritter" style="background-color: #ffffff;">薪资</th>
+                </tr>
+            </table>
+        </div>
+        <div class="questionlist" style=" position: absolute;margin-left:280px;margin-top: 50px;">
+            <table>
+                {{#joblist}}
+                <tr>
+                    <td class="fritter" class="na">{{name}}</td>
+                    <td class="fritter" class="po"><a href="/job/{{number}}">{{position}}</a></td>
+                    <td class="fritter" class="sa">{{salary}}</td>
+                </tr>
+                {{/joblist}}
+            </table>
+        </div>
+        <!-- 尾部 -->
+        <div class="footer">
+            <h4>@xx学院xx级xxxxx班 xxx xxx xxx 指导老师:xxx</h4>
+            <h4>@联系电话: xxx-xxxx-xxx</h4>
+            <h4>@联系邮箱: xxxxxx@xxxxxx.com</h4>
+        </div>
+    </div>
+    <script src="../js/script.js"></script>
+    <script>
+        CheckUser();
+    </script>
+</body>
+
+</html>

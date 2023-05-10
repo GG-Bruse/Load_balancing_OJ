@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>忘记密码页面</title>
+    <!-- 引入jquery CDN -->
+    <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        html {
+            height: 100%;
+        }
+
+        body {
+            height: 100%;
+            background: #fff url(images/page.png) 50% 50% no-repeat;
+            background-size: cover;
+            background-color: #F7F8F9;
+            overflow: hidden;
+        }
+
+        .dowebok {
+            width: 400px;
+            height: 450px;
+            margin: 150px auto 0;
+            background-color: #fff;
+            border-radius: 10px;
+        }
+
+        .sign {
+            text-align: center;
+            margin: 30px auto 20px;
+            font: normal 700 25px/75px Microsoft YaHei;
+        }
+
+
+
+        input {
+            display: block;
+            border-radius: 5px;
+            width: 330px;
+            height: 50px;
+            margin: 20px auto;
+            border: 2px solid #F0F0F0;
+            text-indent: 2em;
+            font: normal 400 15px/50px Microsoft YaHei;
+            color: #8F9DBE;
+            background-color: transparent;
+            outline: none;
+        }
+
+        .dowebok .line {
+            width: 334px;
+            height: 30px;
+            margin: 20px auto;
+        }
+
+        .dowebok .line .reg {
+            float: left;
+            font-size: 15px;
+            line-height: 30px;
+            color: #7098FE;
+        }
+
+        .dowebok .line .forget {
+            float: right;
+            font-size: 15px;
+            line-height: 30px;
+            color: #7098FE;
+        }
+
+        .line a:hover {
+            color: #3b78dd;
+        }
+
+        button {
+            display: block;
+            width: 334px;
+            height: 50px;
+            margin: 40px auto;
+            border: 0;
+            background-color: #750b0b;
+            font: normal 700 23px/50px Microsoft YaHei;
+            color: #fff;
+            border-radius: 5px;
+        }
+
+        button :hover {
+            position: absolute;
+            background-color: #813636;
+            color: #818181;
+        }
+
+        #btn-toggle {
+            background-color: transparent;
+            border: none;
+            outline: none;
+            color: #ffffff;
+            font-size: 25px;
+            font-family: "宋体";
+            position: absolute;
+            right: 30px;
+            top: 13px;
+        }
+
+        #btnx {
+            background-color: transparent;
+            border: none;
+            outline: none;
+            color: #ffffff;
+            font-size: 25px;
+            font-family: "宋体";
+            position: absolute;
+            right: 125px;
+            top: 13px;
+        }
+    </style>
+</head>
+
+<body style="background-color: #fdf6f6;">
+    <link rel="stylesheet" href="/css/Nb.css">
+    <script src="js/script.js"></script>
+    <div class="container">
+        <!-- 导航栏 -->
+        <div class="navbar">
+            <ul class="uu">
+                <li class="ll"><a href=""><img class="logo" src="/图片/logo.png"></a></li>
+                <li class="ll"><a class="xx" href="/">首页</a></li>
+                <li class="ll"><a class="xx" href="/all_questions">题库</a></li>
+                <li class="ll"><a class="xx" href="/job_hunt">求职</a></li>
+                <li class="ll"><a id="btnx"></a></li>
+                <li class="ll"><a id="btn-toggle"></a></li>
+            </ul>
+        </div>
+        <div class="dowebok">
+            <div class="sign">
+                重置密码
+            </div>
+            <input id="user" name="username" type="text" autocomplete="off" placeholder="账号">
+            <input id="passwd1" name="password1" type="password" autocomplete="off" placeholder="新密码">
+            <input id="passwd2" name="password2" type="password" autocomplete="off" placeholder="再次输入新密码">
+            <button onclick="submit()">重置密码</button>
+        </div>
+    </div>
+    <script>
+        function submit() {
+            // 获取信息
+            let username = $(".dowebok #user").val();
+            if (username == '') {
+                alert('账号不能为空');
+                return;
+            }
+            let password1 = $(".dowebok #passwd1").val();
+            if (password1 == '') {
+                alert('新密码不能为空');
+                return;
+            }
+            let password2 = $(".dowebok #passwd2").val();
+            if (password2 == '') {
+                alert('确认密码不能为空');
+                return;
+            }
+            if (password1 != password2) {
+                alert('新密码和旧密码不相同');
+                return;
+            }
+            // console.log(username);
+            // console.log(password);
+            // 发起ajax请求
+            $.ajax({
+                method: 'Post',
+                url: '/forget',
+                dataType: 'json',
+                contentType: 'application/json;charaset=utf-8',
+
+                data: JSON.stringify({
+                    'user': username,
+                    'password': password1
+                }),
+
+                success: function (data) {
+                    var result = data.result;
+                    console.log(result);
+                    if (result == '0') {
+                        alert('密码修改成功');
+                        location.href = "/";
+                        window.event.returnValue = false;
+                    }
+                    else if (result == '1') {
+                        alert('用户不存在');
+                    }
+                    else {
+                        alert('刷新重试');
+                    }
+                }
+            });
+        }
+    </script>
+</body>
+
+</html>

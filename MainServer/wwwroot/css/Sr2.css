@@ -1,0 +1,106 @@
+#bac1 {
+    display: none;  /* 初始状态下隐藏弹出框 */
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 50px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(103, 103, 103, 0.5); /* 半透明遮罩层 */
+    
+    z-index: 2;
+  }
+
+  .back{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 100%;
+      height: 100%;
+      background-color: #6f6f6f;
+      opacity: 0.9;
+      padding: 0px;
+      border-radius: 0;
+  }
+  .bb{
+      
+      counter-reset: none;
+      /* margin: 0;
+      padding: 0; */
+      background-color:#750b0b;
+      /* opacity: 1; */
+      width: 360px;
+      height: 540px;
+      position: absolute;
+      top: 105px;
+      left: 560px;
+      margin: 0 auto;
+      border-radius: 10px;
+  }
+  
+  .abac{
+      /* 弹性布局 垂直排列 */
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      top: 50px;
+      /* opacity: 0.9; */
+  }
+  .abox{
+      /* 绝对定位 */
+      position: absolute;
+      top: 150px;
+      left: 50;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color:#bebebe;
+      /* opacity: 1; */
+      width: 320px;
+      height: 500px;
+      border-radius: 5px;
+      box-shadow: 2px 0 10px rgba(0,0,0,0.1);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 2;
+      /* 动画过渡 加速后减速 */
+      transition: 0.5s ease-in-out;
+  }
+  .abox button{
+      width: 70%;
+      margin-top: 35px;
+      background-color: white;
+      outline: none;
+      border-radius: 8px;
+      padding: 13px;
+      color: #000000;;
+      letter-spacing: 2px;
+      border: none;
+      cursor: pointer;
+      
+  }
+  .abox button:hover{
+      background-color:#750b0b;
+      /* color: white; */
+      transition: background-color 0.5s ease;
+      /* opacity: 0.9; */
+  }
+  #btnx{
+      background-color: transparent;
+      border: none;
+      outline: none;
+      color: #ffffff;
+      font-size: 25px;
+      font-family: "宋体";
+      position: absolute;
+      right: 125px;
+      top: 13px;
+  }
+  #btnx button:hover{
+      color: #000000;
+  }
+  
+  

@@ -1,0 +1,90 @@
+            * {
+            	padding: 0;
+            	margin: 0;
+            }
+
+            #content {
+				margin-top: 50px;
+            	background-color: #000000;
+            }
+
+            #li {
+            	list-style-type: none;
+            }
+
+            #focus {
+            	width: 1000px;
+            	height: 300px;
+            	overflow: hidden;
+            	border: 5px solid #fbf1f1;
+            	border-radius: 20px;
+            	margin: 60px auto 0;
+            	position: relative;
+            	z-index: 1;
+            	right: 100px;
+            	background-color: #f2cbcb;
+            }
+
+            .ol {
+            	position: absolute;
+            	right: 480px;
+            	bottom: 5px;
+            	z-index: 2;
+
+            }
+
+            .ol #li {
+            	float: left;
+            	margin-right: 2px;
+            	cursor: pointer;
+            	background: #ffc3c3;
+            	border: 1px solid #6664b0;
+            	padding: 2px 2px;
+            	color: #fff;
+            	font-family: arial;
+            	font-size: 12px;
+            	list-style-type: none;
+            	width: 1px;
+            	height: 1px;
+            	border-radius: 50%;
+            	background-color: #b8b8b8;
+            	color: #fff;
+            	text-align: center;
+            	line-height: 50px;
+            }
+
+            .active {
+            	padding: 4px 4px;
+            	font-weight: bold;
+            	color: #fff;
+            	background: #b0b0b0;
+            	position: relative;
+            	bottom: 1px;
+            	border: 1px solid #cec8c8;
+            	border-radius: 1px;
+            	width: 1px;
+            	height: 1px;
+            	border-radius: 50%;
+            	background-color: #b8b8b8;
+            	color: #fff;
+            	text-align: center;
+            	line-height: 50px;
+            }
+
+            .ul {
+            	position: absolute;
+            	top: 0px;
+            	left: 0px;
+            	width: 1000px;
+            	height: 300px;
+            	z-index: 1;
+            }
+
+            .ul #li {
+            	/* position: absolute; */
+            	width: auto;
+            	height: 100%;
+            	object-fit: cover;
+            	align-items: center;
+            	justify-content: center;
+            }

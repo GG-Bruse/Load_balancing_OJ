@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{number}}.{{title}}</title>
+    <!-- 引入ACE插件 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.2.6/ace.js" type="text/javascript"
+        charset="utf-8"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.2.6/ext-language_tools.js" type="text/javascript"
+        charset="utf-8"></script>
+    <!-- 引入jquery CDN -->
+    <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        html,
+        body {
+            width: 100%;
+            height: 100%;
+        }
+
+
+        div .ace_editor {
+            height: 600px;
+            width: 100%;
+        }
+
+        .container .part1 {
+            width: 100%;
+            height: 400px;
+        }
+
+        .container .part1 .left_desc {
+            width: 50%;
+            height: 500px;
+            float: left;
+            overflow-y: scroll;
+            overflow-x: scroll;
+            position: relative;
+            top: 10px;
+
+        }
+
+        .container .part1 .left_desc h3 {
+            padding-top: 10px;
+            padding-left: 10px;
+        }
+
+        .container .part1 .left_desc pre {
+            padding-top: 10px;
+            padding-left: 10px;
+            font-size: medium;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        .container .part1 .right_code {
+            position: relative;
+            top: 10px;
+            width: 50%;
+            float: right;
+        }
+
+        .container .part1 .right_code .ace_editor {
+            height: 500px;
+        }
+
+        .container .part2 {
+            width: 100%;
+            overflow: hidden;
+            background-color: #fdf6f6;
+        }
+
+        .container .part2 .result {
+            width: 300px;
+            float: left;
+            margin-top: 15px;
+            margin-left: 15px;
+        }
+
+        .container .part2 .result pre {
+            font-size: large;
+        }
+
+        .container .part2 .btn-submit {
+            width: 120px;
+            height: 50px;
+            font-size: large;
+            float: right;
+            background-color: #26bb9c;
+            color: #FFF;
+            /* 给按钮带上圆角 */
+            border-radius: 1ch;
+            border: 0px;
+            /*去边框*/
+            margin-top: 40px;
+            margin-right: 10px;
+        }
+
+        .container .part2 button:hover {
+            color: rgb(200, 202, 245);
+        }
+
+        #btn-toggle {
+            background-color: transparent;
+            border: none;
+            outline: none;
+            color: #ffffff;
+            font-size: 25px;
+            font-family: "宋体";
+            position: absolute;
+            right: 30px;
+            top: 0px;
+        }
+
+        .answer_box {
+            width: 100%;
+            height: 130px;
+            line-height: 130px;
+            color: rgb(102, 102, 102);
+            text-align: center;
+            display: inline-block;
+        }
+
+        .unpass1 {
+            font-size: 16px;
+            margin-left: 10px;
+            color: red;
+        }
+
+        .unpass2 {
+            font-size: 16px;
+            margin-left: 10px;
+            color: red;
+        }
+
+        .origin {
+            font-size: 16px;
+            margin-left: 10px;
+        }
+
+        .pass {
+            position: relative;
+            top: 25px;
+            left: 25px;
+            height: 45px;
+            width: 340px;
+            color: #00ffae;
+            text-indent:50px;
+            background-color: #e6fcf6;
+            border-radius: 15px;
+            font-weight: 100%;
+            font-size: 30px;
+        }
+
+        #btn-toggle {
+            background-color: transparent;
+            border: none;
+            outline: none;
+            color: #ffffff;
+            font-size: 25px;
+            font-family: "宋体";
+            position: absolute;
+            right: 30px;
+            top: 13px;
+        }
+
+        #btnx {
+            background-color: transparent;
+            border: none;
+            outline: none;
+            color: #ffffff;
+            font-size: 25px;
+            font-family: "宋体";
+            position: absolute;
+            right: 125px;
+            top: 13px;
+        }
+    </style>
+</head>
+
+<body style="background-color: #fdf6f6;">
+    <link rel="stylesheet" href="../css/Nb.css">
+    <div class="container">
+        <!-- 导航栏 -->
+        <div class="navbar">
+            <ul class="uu">
+                <li class="ll"><a href=""><img class="logo" src="/图片/logo.png"></a></li>
+                <li class="ll"><a class="xx" href="/">首页</a></li>
+                <li class="ll"><a class="xx" href="/all_questions" style="border-bottom: 3px solid #ffffff;">题库</a></li>
+                <li class="ll"><a class="xx" href="/job_hunt">求职</a></li>
+                <li class="ll"><a id="btnx"></a></li>
+                <li class="ll"><a id="btn-toggle"></a></li>
+            </ul>
+        </div>
+
+        <div class="part1">
+            <div class="left_desc">
+                <h3><span id="number">{{number}}</span>.{{title}}_{{difficulty}}</h3>
+                <pre>{{describe}}</pre>
+            </div>
+            <div class="right_code">
+                <pre id="code" class="ace_editor"><textarea class="ace_textinput">{{headContent}}</textarea></pre>
+            </div>
+        </div>
+
+        <div class="part2">
+            <div class="result"></div>
+            <button class="btn-submit" onclick="submit()">提交代码</button>
+        </div>
+
+    </div>
+
+
+    <script>
+        //初始化对象
+        editor = ace.edit("code");
+        //设置风格和语言（更多风格和语言，请到github上相应目录查看）
+        // 主题大全：http://www.manongjc.com/detail/25-cfpdrwkkivkikmk.html
+        editor.setTheme("ace/theme/monokai");
+        editor.session.setMode("ace/mode/c_cpp");
+        // 字体大小
+        editor.setFontSize(16);
+        // 设置默认制表符的大小:
+        editor.getSession().setTabSize(4);
+        // 设置只读（true时只读，用于展示代码）
+        editor.setReadOnly(false);
+        // 启用提示菜单
+        ace.require("ace/ext/language_tools");
+        editor.setOptions({
+            enableBasicAutocompletion: true,
+            enableSnippets: true,
+            enableLiveAutocompletion: true
+        });
+
+        // 前后端交互
+        function submit() {
+            //获取当前页面数据 1.题号 2.代码
+            var code = editor.getSession().getValue();
+            var number = $(".container .part1 .left_desc h3 #number").text();
+
+            //发起请求
+            var codehandle_url = "/codehandle/" + number
+            $.ajax({
+                method: 'Post',
+                url: codehandle_url,
+                dataType: 'json',
+                contentType: 'application/json; charset=utf-8',
+                data: JSON.stringify({
+                    'Code': code,
+                    'Input': '',
+                }),
+                success: function (data) {
+                    //成功得到结果
+                    // console.log(data);
+                    show_result(data);
+                }
+            });
+            setTimeout(function () {
+                isclick = true;
+            }, 1000);// 1000ms
+        }
+        function show_result(data) {
+            // 拿到result结果标签
+            var result_div = $(".container .part2 .result");
+            // 清空上一次的运行结果
+            result_div.empty();
+            result_div.removeClass('answer_box');
+            // 首先拿到结果的状态码和原因结果
+            var status = data.StatusCode;
+            var reason = data.Reason;
+
+            if (status == 0) {
+                // 运行成功
+                var stdout = data.Stdout;
+                var stderr = data.Stderr;
+                if (stdout === "通过全部测试用例\n") {
+                    var stdout_label = $("<div>", {
+                        text: " 通过全部测试用例"
+                    });
+                    stdout_label.addClass('pass');
+                    stdout_label.appendTo(result_div);
+                }
+                else {
+                    console.log('2');
+                    var unpass_label = $("<pre>", {
+                        text: '未通过'
+                    });
+                    unpass_label.addClass('unpass1');
+                    unpass_label.appendTo(result_div);
+                    var stdout_label = $("<pre>", {
+                        text: stdout
+                    });
+                    stdout_label.addClass('origin');
+                    var stderr_label = $("<pre>", {
+                        text: stderr
+                    });
+                    stderr_label.addClass('unpass2')
+                    stdout_label.appendTo(result_div);
+                    stderr_label.appendTo(result_div);
+                }
+            }
+            else if (status < 0) {
+                var reason_label = $("<pre>", {
+                    text: '编译错误\n' + reason
+                });
+                reason_label.addClass('unpass2');
+                reason_label.appendTo(result_div);
+            }
+            else {
+                // 信号所杀
+                var reason_label = $("<pre>", {
+                    text: reason
+                });
+                var stderr = data.stderr;
+                var stderr_label = $("<pre>", {
+                    text: stderr
+                });
+
+                reason_label.addClass('unpass1');
+                reason_label.appendTo(result_div);
+                stderr_label.addClass('unpass2')
+                stderr_label.appendTo(result_div);
+            }
+        }
+        // // 1. 获取元素
+        var result = document.getElementById('result');
+        // 2. 注册时间
+        result.onclick = function () {
+            this.className = 'change';
+            input.className = 'normal';
+            // }
+            // 1. 获取元素
+            var input = document.getElementById('input');
+            // 2. 注册时间
+            input.onclick = function () {
+                this.className = 'change';
+                result.className = 'normal';
+            }
+        }
+
+    </script>
+    <script src="../js/script.js"></script>
+    <script>
+        CheckUser();
+    </script>
+</body>
+
+</html>

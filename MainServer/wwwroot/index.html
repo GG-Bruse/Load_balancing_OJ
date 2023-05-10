@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+
+    <title>大厂网</title>
+    <style>
+    </style>
+
+</head>
+
+<body style="background-color: #fdf6f6;">
+    <link rel="stylesheet" href="css/Nb.css">
+    <link rel="stylesheet" href="css/Sr.css">
+    <link rel="stylesheet" href="css/Sr2.css">
+    <link rel="stylesheet" href="css/gp.css">
+    <link rel="stylesheet" href="css/word.css">
+    <div class="container">
+        <!-- 导航栏 -->
+        <div class="navbar">
+            <ul class="uu">
+                <li class="ll"><a href=""><img class="logo" src="/图片/logo.png"></a></li>
+                <li class="ll"><a class="xx" href="/" style="border-bottom: 3px solid #ffffff;">首页</a></li>
+                <li class="ll"><a class="xx" href="/all_questions">题库</a></li>
+                <li class="ll"><a class="xx" href="/job_hunt">求职</a></li>
+                <li class="ll"><button id="btnx" class="sign"><a href="/administrator.html" style="text-decoration:none;color: #ffffff;">管理员</a> </button></li>
+                <li class="ll"><button id="btn-toggle" onclick="activeButton(this)" class="sign">登录</button></li>
+                <div id="overlay">
+                    <div id="dialog">
+                        <div class="container1">
+                            <div class="form-box">
+                                <div class="register-box hidden">
+                                    <h1>register</h1>
+                                    <input id="text" type="text" placeholder="用户名">
+                                    <input id="password1"type="password1" placeholder="密码">
+                                    <input id="password2"type="password2" placeholder="确认密码">
+                                    <button onclick="submit_1()">注册</button>
+                                </div>
+                                <div class="login-box">
+                                    <h1>login</h1>
+                                    <input id="ord_user" type="text" placeholder="用户名">
+                                    <input id="ord_passwd" type="password" placeholder="密码">
+                                    <button onclick="submit_2()">登录</button>
+                                    <a href="/forget.html" class="foget"> 忘记密码</a>
+                                </div>
+                            </div>
+
+                            <div class="con-box left">
+                                <h2>欢迎注册<span>大厂网</span></h2>
+                                <p>个人开发的在线<span>OJ</span>平台</p>
+                                <p>已有账号</p>
+                                <button id="login">去登录</button>
+                            </div>
+                            <div class="con-box right">
+                                <h2>欢迎登录<span>大厂网</span></h2>
+                                <p>个人开发的在线<span>OJ</span>平台</p>
+                                <p>没有账号？</p>
+                                <button id="register">去注册</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </ul>
+        </div>
+
+
+        <div class="ct">
+            <span class="tt">大厂网</span><br>
+            <span class="ttf">助力大学生就业</span>
+        </div>
+        <div class="content">
+
+            <div id="focus">
+                <ol class="ol">
+                    <li id="li" class="active"></li>
+                    <li id="li"></li>
+                    <li id="li"></li>
+                    <li id="li"></li>
+                    <li id="li"></li>
+                </ol>
+                <ul class="ul">
+                    <li id="li"><a href=""><img src="/图片/红色文化6.jpg" /></a></li>
+                    <li id="li"><a href=""><img src="/图片/红色文化9.jpg" /></a></li>
+                    <li id="li"><a href=""><img src="/图片/红色文化10.jpg" /></a></li>
+                    <li id="li"><a href=""><img src="/图片/红色文化11.jpg" /></a></li>
+                    <li id="li"><a href=""><img src="/图片/红色文化8.jpg" /></a></li>
+                </ul>
+            </div>
+
+        </div>
+        <script src="js/jquery-3.1.0.js"></script>
+        <script src="js/Sr2.js"></script>
+        <script src="js/Sr.js"></script>
+        <script src="js/gp.js"></script>
+        <script src="js/script.js"></script>
+        <script src="js/loding.js"></script>
+    </div>
+    <script>
+        CheckUser_Home();
+    </script>
+    <script>
+        function submit_1() {
+            // 获取信息
+            let username = $(".register-box #text").val();
+            if (username == '') {
+                alert('账号不能为空');
+                return;
+            }
+            let password1 = $(".register-box #password1").val();
+            if (password1 == '') {
+                alert('密码不能为空');
+                return;
+            }
+            let password2 = $(".register-box #password2").val();
+            if (password2 == '') {
+                alert('确认密码不能为空');
+                return;
+            }
+            if (password1 !== password2) {
+                alert('确认密码与密码不一致');
+                return;
+            }
+            console.log(username);
+            console.log(password1);
+            console.log(password2);
+            // 发起ajax请求
+            $.ajax({
+                method: 'Post',
+                url: '/register',
+                dataType: 'json',
+                contentType: 'application/json;charaset=utf-8',
+
+                data: JSON.stringify({
+                    'User': username,
+                    'Password': password1
+                }),
+
+                success: function (data) {
+                    var result = data.Result;
+                    console.log(result);
+                    if (result == "success") {
+                        alert('账号注册成功');
+                        location.href = "/";
+                        window.event.returnValue = false;
+                    }
+                    else if (result == "fail") {
+                        alert('用户不存在');
+                    }
+                    else {
+                        alert('刷新重试');
+                    }
+                }
+            });
+        }
+
+        function submit_2() {
+            // 获取信息
+            let username = $(".login-box #ord_user").val();
+            if (username == '') {
+                alert('账号不能为空');
+                return;
+            }
+            let password = $(".login-box #ord_passwd").val();
+            if (password == '') {
+                alert('密码不能为空');
+                return;
+            }
+            console.log(username);
+            console.log(password);
+            // 发起ajax请求
+            $.ajax({
+                method: 'Post',
+                url: '/sign',
+                dataType: 'json',
+                contentType: 'application/json;charaset=utf-8',
+
+                data: JSON.stringify({
+                    'User': username,
+                    'Password': password
+                }),
+
+                success: function (data) {
+                    var result = data.Result;
+                    console.log(result);
+                    if (result == '0') {
+                        alert('账号登录成功');
+                        location.href = "/";
+                        window.event.returnValue = false;
+                    }
+                    else if (result == '1') {
+                        alert('用户不存在');
+                    }
+                    else if (result == '2') {
+                        alert('密码错误');
+                    }
+                    else {
+                        alert('刷新重试');
+                    }
+                }
+            });
+        }
+      
+
+    </script>
+</body>
+
+</html>

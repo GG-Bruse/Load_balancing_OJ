@@ -1,0 +1,34 @@
+            .ct{
+				margin-top:60px ;
+				text-align: center;
+				
+				filter: contrast(50);
+			}
+			.tt,.ttf{
+				color: #000000;
+				letter-spacing: -50px;
+				animation: showup 3s forwards;
+				font-family:cursive;
+				
+			}
+			.tt{
+				font-size: 100px;
+				
+			}
+			.ttf{
+				font-size: 80px;
+				
+			}
+			@keyframes showup{
+				from{
+					letter-spacing: -70px;
+					filter: blur(30px);
+				}
+				to{
+					letter-spacing: 10px;
+					
+				}
+			}
+			.ct.ct.ttf{
+				background-color:  #faf4f4;
+			}
