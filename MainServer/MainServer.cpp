@@ -163,7 +163,7 @@ int main()
         response.set_content(outputJson, "application/json;charset=utf-8"); 
     });
 
-    server.listen("0.0.0.0", 8080);//启动监听
+    server.listen("0.0.0.0", 80);//启动监听
     close(fd);
     return 0;
 }

@@ -289,3 +289,123 @@ insert into joblist(`name`, `position`, `salary`, `address`, `describe`, `phone`
 [WARINNG][DataBases.hpp-52][5_10_20_23_42]select * from questionlist where number=12 执行失败
 [WARINNG][DataBases.hpp-52][5_10_20_23_57]select * from questionlist 执行失败
 [WARINNG][DataBases.hpp-52][5_10_21_18_1]select * from joblist where number=7 执行失败
+[NORMAL][DataBases.hpp-192][5_14_19_42_0]Successfully linked MySQL
+[NORMAL][LoadBalancer.hpp-77][5_14_19_42_0]Successfully loaded configuration file: ./conf/ServerHost.conf
+[NORMAL][MainServer.cpp-44][5_14_19_43_36]Get a sign request
+[NORMAL][ModelLayer.hpp-108][5_14_19_43_36]用户:bjy 登录成功
+[INFO][MainServer.cpp-150][5_14_19_43_38]get a get username request
+[INFO][MainServer.cpp-150][5_14_19_43_39]get a get username request
+[INFO][MainServer.cpp-150][5_14_19_43_41]get a get username request
+[NORMAL][Controller.hpp-119][5_14_19_43_42]Successfully selected the host with the least load, hostID:0 ip:43.139.44.157 port:8081 当前主机负载为:1
+[NORMAL][Controller.hpp-126][5_14_19_43_43]Request code processing server successful
+[NORMAL][Controller.hpp-119][5_14_19_43_46]Successfully selected the host with the least load, hostID:0 ip:43.139.44.157 port:8081 当前主机负载为:1
+[NORMAL][Controller.hpp-119][5_14_19_43_46]Successfully selected the host with the least load, hostID:1 ip:43.139.44.157 port:8082 当前主机负载为:1
+[ERROR][Controller.hpp-133][5_14_19_43_46]Request code processing server failed, hostID:1 ip: 43.139.44.157 port: 8082
+当前在线主机列表
+0 2 3 4 5 
+当前离线主机列表
+1 
+[NORMAL][Controller.hpp-119][5_14_19_43_46]Successfully selected the host with the least load, hostID:2 ip:43.139.44.157 port:8083 当前主机负载为:1
+[ERROR][Controller.hpp-133][5_14_19_43_46]Request code processing server failed, hostID:2 ip: 43.139.44.157 port: 8083
+当前在线主机列表
+0 3 4 5 
+当前离线主机列表
+1 2 
+[NORMAL][Controller.hpp-119][5_14_19_43_46]Successfully selected the host with the least load, hostID:3 ip:159.75.2.6 port:8081 当前主机负载为:1
+[NORMAL][Controller.hpp-126][5_14_19_43_47]Request code processing server successful
+[NORMAL][Controller.hpp-119][5_14_19_43_47]Successfully selected the host with the least load, hostID:0 ip:43.139.44.157 port:8081 当前主机负载为:1
+[NORMAL][Controller.hpp-119][5_14_19_43_47]Successfully selected the host with the least load, hostID:4 ip:159.75.2.6 port:8082 当前主机负载为:1
+[NORMAL][Controller.hpp-126][5_14_19_43_47]Request code processing server successful
+[NORMAL][Controller.hpp-126][5_14_19_43_47]Request code processing server successful
+[NORMAL][Controller.hpp-119][5_14_19_43_47]Successfully selected the host with the least load, hostID:0 ip:43.139.44.157 port:8081 当前主机负载为:1
+[NORMAL][Controller.hpp-126][5_14_19_43_47]Request code processing server successful
+[NORMAL][Controller.hpp-119][5_14_19_43_47]Successfully selected the host with the least load, hostID:3 ip:159.75.2.6 port:8081 当前主机负载为:1
+[NORMAL][Controller.hpp-119][5_14_19_43_47]Successfully selected the host with the least load, hostID:4 ip:159.75.2.6 port:8082 当前主机负载为:1
+[NORMAL][Controller.hpp-126][5_14_19_43_47]Request code processing server successful
+[NORMAL][Controller.hpp-119][5_14_19_43_47]Successfully selected the host with the least load, hostID:0 ip:43.139.44.157 port:8081 当前主机负载为:1
+[NORMAL][Controller.hpp-126][5_14_19_43_48]Request code processing server successful
+[NORMAL][Controller.hpp-119][5_14_19_43_48]Successfully selected the host with the least load, hostID:3 ip:159.75.2.6 port:8081 当前主机负载为:1
+[NORMAL][Controller.hpp-126][5_14_19_43_48]Request code processing server successful
+[NORMAL][Controller.hpp-126][5_14_19_43_48]Request code processing server successful
+[NORMAL][Controller.hpp-119][5_14_19_43_48]Successfully selected the host with the least load, hostID:0 ip:43.139.44.157 port:8081 当前主机负载为:1
+[NORMAL][Controller.hpp-119][5_14_19_43_48]Successfully selected the host with the least load, hostID:4 ip:159.75.2.6 port:8082 当前主机负载为:1
+[NORMAL][Controller.hpp-126][5_14_19_43_48]Request code processing server successful
+[NORMAL][Controller.hpp-126][5_14_19_43_48]Request code processing server successful
+[NORMAL][Controller.hpp-119][5_14_19_43_48]Successfully selected the host with the least load, hostID:0 ip:43.139.44.157 port:8081 当前主机负载为:1
+[NORMAL][Controller.hpp-126][5_14_19_43_48]Request code processing server successful
+[NORMAL][Controller.hpp-119][5_14_19_43_48]Successfully selected the host with the least load, hostID:3 ip:159.75.2.6 port:8081 当前主机负载为:1
+[NORMAL][Controller.hpp-126][5_14_19_43_49]Request code processing server successful
+[NORMAL][Controller.hpp-119][5_14_19_43_49]Successfully selected the host with the least load, hostID:0 ip:43.139.44.157 port:8081 当前主机负载为:1
+[NORMAL][Controller.hpp-126][5_14_19_43_49]Request code processing server successful
+[NORMAL][Controller.hpp-119][5_14_19_43_49]Successfully selected the host with the least load, hostID:3 ip:159.75.2.6 port:8081 当前主机负载为:1
+[NORMAL][Controller.hpp-126][5_14_19_43_49]Request code processing server successful
+[NORMAL][Controller.hpp-119][5_14_19_43_49]Successfully selected the host with the least load, hostID:0 ip:43.139.44.157 port:8081 当前主机负载为:1
+[NORMAL][Controller.hpp-126][5_14_19_43_49]Request code processing server successful
+[NORMAL][Controller.hpp-119][5_14_19_43_49]Successfully selected the host with the least load, hostID:3 ip:159.75.2.6 port:8081 当前主机负载为:1
+[NORMAL][Controller.hpp-126][5_14_19_43_49]Request code processing server successful
+[NORMAL][Controller.hpp-119][5_14_19_43_49]Successfully selected the host with the least load, hostID:0 ip:43.139.44.157 port:8081 当前主机负载为:1
+[NORMAL][Controller.hpp-126][5_14_19_43_50]Request code processing server successful
+[NORMAL][Controller.hpp-119][5_14_19_43_50]Successfully selected the host with the least load, hostID:3 ip:159.75.2.6 port:8081 当前主机负载为:1
+[NORMAL][Controller.hpp-126][5_14_19_43_50]Request code processing server successful
+[NORMAL][Controller.hpp-119][5_14_19_43_50]Successfully selected the host with the least load, hostID:0 ip:43.139.44.157 port:8081 当前主机负载为:1
+[NORMAL][Controller.hpp-126][5_14_19_43_50]Request code processing server successful
+[NORMAL][Controller.hpp-119][5_14_19_43_50]Successfully selected the host with the least load, hostID:3 ip:159.75.2.6 port:8081 当前主机负载为:1
+[NORMAL][Controller.hpp-126][5_14_19_43_50]Request code processing server successful
+[NORMAL][Controller.hpp-119][5_14_19_43_50]Successfully selected the host with the least load, hostID:0 ip:43.139.44.157 port:8081 当前主机负载为:1
+[NORMAL][Controller.hpp-119][5_14_19_43_50]Successfully selected the host with the least load, hostID:4 ip:159.75.2.6 port:8082 当前主机负载为:1
+[NORMAL][Controller.hpp-126][5_14_19_43_50]Request code processing server successful
+[NORMAL][Controller.hpp-126][5_14_19_43_51]Request code processing server successful
+[NORMAL][Controller.hpp-126][5_14_19_43_51]Request code processing server successful
+[NORMAL][LoadBalancer.hpp-111][5_14_19_44_51]All hosts are online
+[NORMAL][Controller.hpp-119][5_14_19_45_2]Successfully selected the host with the least load, hostID:0 ip:43.139.44.157 port:8081 当前主机负载为:1
+[NORMAL][Controller.hpp-119][5_14_19_45_2]Successfully selected the host with the least load, hostID:3 ip:159.75.2.6 port:8081 当前主机负载为:1
+[NORMAL][Controller.hpp-126][5_14_19_45_2]Request code processing server successful
+[NORMAL][Controller.hpp-119][5_14_19_45_2]Successfully selected the host with the least load, hostID:0 ip:43.139.44.157 port:8081 当前主机负载为:1
+[NORMAL][Controller.hpp-126][5_14_19_45_2]Request code processing server successful
+[NORMAL][Controller.hpp-119][5_14_19_45_2]Successfully selected the host with the least load, hostID:3 ip:159.75.2.6 port:8081 当前主机负载为:1
+[NORMAL][Controller.hpp-119][5_14_19_45_3]Successfully selected the host with the least load, hostID:4 ip:159.75.2.6 port:8082 当前主机负载为:1
+[NORMAL][Controller.hpp-126][5_14_19_45_3]Request code processing server successful
+[NORMAL][Controller.hpp-119][5_14_19_45_3]Successfully selected the host with the least load, hostID:0 ip:43.139.44.157 port:8081 当前主机负载为:1
+[NORMAL][Controller.hpp-126][5_14_19_45_3]Request code processing server successful
+[NORMAL][Controller.hpp-119][5_14_19_45_3]Successfully selected the host with the least load, hostID:3 ip:159.75.2.6 port:8081 当前主机负载为:1
+[NORMAL][Controller.hpp-119][5_14_19_45_3]Successfully selected the host with the least load, hostID:5 ip:159.75.2.6 port:8083 当前主机负载为:1
+[ERROR][Controller.hpp-133][5_14_19_45_3]Request code processing server failed, hostID:5 ip: 159.75.2.6 port: 8083
+当前在线主机列表
+0 3 4 1 2 
+当前离线主机列表
+5 
+[NORMAL][Controller.hpp-119][5_14_19_45_3]Successfully selected the host with the least load, hostID:1 ip:43.139.44.157 port:8082 当前主机负载为:1
+[ERROR][Controller.hpp-133][5_14_19_45_3]Request code processing server failed, hostID:1 ip: 43.139.44.157 port: 8082
+当前在线主机列表
+0 3 4 2 
+当前离线主机列表
+5 1 
+[NORMAL][Controller.hpp-119][5_14_19_45_3]Successfully selected the host with the least load, hostID:2 ip:43.139.44.157 port:8083 当前主机负载为:1
+[ERROR][Controller.hpp-133][5_14_19_45_3]Request code processing server failed, hostID:2 ip: 43.139.44.157 port: 8083
+当前在线主机列表
+0 3 4 
+当前离线主机列表
+5 1 2 
+[NORMAL][Controller.hpp-119][5_14_19_45_3]Successfully selected the host with the least load, hostID:0 ip:43.139.44.157 port:8081 当前主机负载为:2
+[NORMAL][Controller.hpp-126][5_14_19_45_3]Request code processing server successful
+[NORMAL][Controller.hpp-126][5_14_19_45_3]Request code processing server successful
+[NORMAL][Controller.hpp-119][5_14_19_45_3]Successfully selected the host with the least load, hostID:4 ip:159.75.2.6 port:8082 当前主机负载为:1
+[NORMAL][Controller.hpp-126][5_14_19_45_3]Request code processing server successful
+[NORMAL][Controller.hpp-119][5_14_19_45_3]Successfully selected the host with the least load, hostID:3 ip:159.75.2.6 port:8081 当前主机负载为:1
+[NORMAL][Controller.hpp-126][5_14_19_45_3]Request code processing server successful
+[NORMAL][Controller.hpp-119][5_14_19_45_4]Successfully selected the host with the least load, hostID:0 ip:43.139.44.157 port:8081 当前主机负载为:1
+[NORMAL][Controller.hpp-119][5_14_19_45_4]Successfully selected the host with the least load, hostID:0 ip:43.139.44.157 port:8081 当前主机负载为:2
+[NORMAL][Controller.hpp-126][5_14_19_45_4]Request code processing server successful
+[NORMAL][Controller.hpp-126][5_14_19_45_4]Request code processing server successful
+[NORMAL][Controller.hpp-119][5_14_19_45_4]Successfully selected the host with the least load, hostID:3 ip:159.75.2.6 port:8081 当前主机负载为:1
+[NORMAL][Controller.hpp-126][5_14_19_45_4]Request code processing server successful
+[NORMAL][Controller.hpp-119][5_14_19_45_4]Successfully selected the host with the least load, hostID:4 ip:159.75.2.6 port:8082 当前主机负载为:1
+[NORMAL][Controller.hpp-126][5_14_19_45_4]Request code processing server successful
+[NORMAL][Controller.hpp-119][5_14_19_45_4]Successfully selected the host with the least load, hostID:0 ip:43.139.44.157 port:8081 当前主机负载为:1
+[NORMAL][Controller.hpp-126][5_14_19_45_4]Request code processing server successful
+[NORMAL][Controller.hpp-119][5_14_19_45_4]Successfully selected the host with the least load, hostID:3 ip:159.75.2.6 port:8081 当前主机负载为:1
+[NORMAL][Controller.hpp-126][5_14_19_45_5]Request code processing server successful
+[NORMAL][Controller.hpp-126][5_14_19_45_5]Request code processing server successful
+[NORMAL][Controller.hpp-126][5_14_19_45_5]Request code processing server successful
+[NORMAL][DataBases.hpp-192][5_14_21_7_11]Successfully linked MySQL
+[NORMAL][LoadBalancer.hpp-77][5_14_21_7_11]Successfully loaded configuration file: ./conf/ServerHost.conf
