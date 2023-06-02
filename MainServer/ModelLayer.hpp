@@ -185,7 +185,7 @@ namespace ModelLayer
             return false;
         }
         bool ObtainAllJob(vector<Job>* jobs) {
-            string sql = "select * from joblist" ;
+            string sql = "select * from joblist";
             return GetDataFromMySQL_second(sql, jobs);
         }
         bool ObtainDesignatedJob(const string& number, Job* job) {
