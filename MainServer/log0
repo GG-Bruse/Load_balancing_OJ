@@ -49,6 +49,7 @@
 [INFO][MainServer.cpp-150][6_2_22_50_36]get a get username request
 [INFO][MainServer.cpp-150][6_2_22_50_38]get a get username request
 [INFO][MainServer.cpp-150][6_2_22_50_43]get a get username request
+<<<<<<< HEAD
 [WARINNG][DataBases.hpp-52][6_9_0_41_27]select * from questionlist 执行失败
 [NORMAL][DataBases.hpp-192][6_9_0_42_40]Successfully linked MySQL
 [NORMAL][LoadBalancer.hpp-77][6_9_0_42_40]Successfully loaded configuration file: ./conf/ServerHost.conf
@@ -521,3 +522,5 @@ int main()
 [NORMAL][DataBases.hpp-192][6_26_1_45_2]Successfully linked MySQL
 [NORMAL][LoadBalancer.hpp-77][6_26_1_45_2]Successfully loaded configuration file: ./conf/ServerHost.conf
 [WARINNG][DataBases.hpp-52][6_28_19_31_3]select * from joblist 执行失败
+=======
+>>>>>>> 87d502ad4be3a503bbb6c517c21e12e96da0f08f
