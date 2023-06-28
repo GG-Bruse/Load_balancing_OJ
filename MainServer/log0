@@ -1,411 +1,523 @@
-[NORMAL][DataBases.hpp-192][5_3_2_8_24]Successfully linked MySQL
-[NORMAL][LoadBalancer.hpp-77][5_3_2_8_24]Successfully loaded configuration file: ./conf/ServerHost.conf
-[INFO][MainServer.cpp-150][5_3_2_8_42]get a get username request
-[ERROR][DataBases.hpp-169][5_3_2_8_42]无结果
-[MORMAL][MainServer.cpp-70][5_3_2_9_1]get a administrator sign request
-[NORMAL][ModelLayer.hpp-108][5_3_2_9_1]用户:root 登录成功
+[NORMAL][DataBases.hpp-192][5_27_22_34_7]Successfully linked MySQL
+[NORMAL][LoadBalancer.hpp-77][5_27_22_34_7]Successfully loaded configuration file: ./conf/ServerHost.conf
+[NORMAL][MainServer.cpp-44][5_27_22_34_46]Get a sign request
+[NORMAL][ModelLayer.hpp-108][5_27_22_34_46]用户:bjy 登录成功
+[INFO][MainServer.cpp-150][5_27_22_34_48]get a get username request
+[INFO][MainServer.cpp-150][5_27_22_34_50]get a get username request
+[INFO][MainServer.cpp-150][5_27_22_34_55]get a get username request
+[NORMAL][Controller.hpp-119][5_27_22_34_57]Successfully selected the host with the least load, hostID:0 ip:43.139.44.157 port:8081 当前主机负载为:1
+[NORMAL][Controller.hpp-126][5_27_22_34_57]Request code processing server successful
+[INFO][MainServer.cpp-150][5_27_22_35_2]get a get username request
+[INFO][MainServer.cpp-150][5_27_22_35_4]get a get username request
+[INFO][MainServer.cpp-150][5_27_22_35_15]get a get username request
+[MORMAL][MainServer.cpp-70][5_27_22_35_27]get a administrator sign request
+[NORMAL][ModelLayer.hpp-108][5_27_22_35_27]用户:root 登录成功
 1
 {"Result":"0"}
 
-[INFO][MainServer.cpp-150][5_3_2_9_2]get a get username request
-[INFO][MainServer.cpp-150][5_3_2_9_3]get a get username request
-[INFO][MainServer.cpp-150][5_3_2_9_24]get a get username request
-[NORMAL][MainServer.cpp-131][5_3_2_9_51]get a add job request
-insert into joblist(`name`, `position`, `salary`, `address`, `describe`, `phone`) values('123456789', '123456789', '123456789', '123456789', '123456789',' 111-222-333');
-[NORMAL][DataBases.hpp-144][5_3_2_9_51]添加工作成功
-[INFO][MainServer.cpp-150][5_3_2_9_53]get a get username request
-[NORMAL][MainServer.cpp-44][5_3_2_10_7]Get a sign request
-[NORMAL][ModelLayer.hpp-108][5_3_2_10_7]用户:bjy 登录成功
-[INFO][MainServer.cpp-150][5_3_2_10_9]get a get username request
-[INFO][MainServer.cpp-150][5_3_2_10_11]get a get username request
-[INFO][MainServer.cpp-150][5_3_2_10_13]get a get username request
-[NORMAL][DataBases.hpp-192][5_3_2_20_4]Successfully linked MySQL
-[NORMAL][LoadBalancer.hpp-77][5_3_2_20_4]Successfully loaded configuration file: ./conf/ServerHost.conf
-[NORMAL][LoadBalancer.hpp-111][5_3_2_21_6]All hosts are online
-[NORMAL][MainServer.cpp-44][5_3_2_21_54]Get a sign request
-[NORMAL][ModelLayer.hpp-108][5_3_2_21_54]用户:example 登录成功
-[INFO][MainServer.cpp-150][5_3_2_21_56]get a get username request
-[INFO][MainServer.cpp-150][5_3_2_21_57]get a get username request
-[INFO][MainServer.cpp-150][5_3_2_22_2]get a get username request
-[INFO][MainServer.cpp-150][5_3_2_22_13]get a get username request
-[INFO][MainServer.cpp-150][5_3_2_22_20]get a get username request
-[MORMAL][MainServer.cpp-70][5_3_2_22_34]get a administrator sign request
-[NORMAL][ModelLayer.hpp-108][5_3_2_22_34]用户:root 登录成功
+[INFO][MainServer.cpp-150][5_27_22_35_29]get a get username request
+[INFO][MainServer.cpp-150][5_27_22_35_30]get a get username request
+[INFO][MainServer.cpp-150][5_27_22_35_35]get a get username request
+[INFO][MainServer.cpp-150][5_27_22_35_38]get a get username request
+[INFO][MainServer.cpp-150][5_27_22_35_46]get a get username request
+[WARINNG][DataBases.hpp-52][5_30_18_11_11]select * from questionlist 执行失败
+[WARINNG][DataBases.hpp-52][5_30_18_11_11]select * from joblist 执行失败
+[WARINNG][DataBases.hpp-52][5_30_18_11_11]select * from questionlist 执行失败
+[WARINNG][DataBases.hpp-52][5_30_18_11_11]select * from joblist 执行失败
+[WARINNG][DataBases.hpp-52][6_2_15_50_35]select * from questionlist 执行失败
+[WARINNG][DataBases.hpp-52][6_2_15_50_39]select * from joblist 执行失败
+[WARINNG][DataBases.hpp-52][6_2_15_51_31]select * from questionlist 执行失败
+[WARINNG][DataBases.hpp-52][6_2_15_51_40]select * from joblist 执行失败
+[WARINNG][DataBases.hpp-52][6_2_22_40_21]select * from questionlist 执行失败
+[WARINNG][DataBases.hpp-52][6_2_22_40_25]select * from joblist 执行失败
+[WARINNG][DataBases.hpp-52][6_2_22_40_42]select * from joblist 执行失败
+[WARINNG][DataBases.hpp-52][6_2_22_40_46]select * from questionlist 执行失败
+[WARINNG][DataBases.hpp-52][6_2_22_42_42]select * from joblist 执行失败
+[WARINNG][DataBases.hpp-52][6_2_22_45_31]select * from questionlist 执行失败
+[NORMAL][DataBases.hpp-192][6_2_22_49_51]Successfully linked MySQL
+[NORMAL][LoadBalancer.hpp-77][6_2_22_49_51]Successfully loaded configuration file: ./conf/ServerHost.conf
+[NORMAL][MainServer.cpp-44][6_2_22_50_19]Get a sign request
+[NORMAL][ModelLayer.hpp-108][6_2_22_50_19]用户:bjy 登录成功
+[INFO][MainServer.cpp-150][6_2_22_50_21]get a get username request
+[INFO][MainServer.cpp-150][6_2_22_50_24]get a get username request
+[INFO][MainServer.cpp-150][6_2_22_50_26]get a get username request
+[NORMAL][Controller.hpp-119][6_2_22_50_27]Successfully selected the host with the least load, hostID:0 ip:43.139.44.157 port:8081 当前主机负载为:1
+[NORMAL][Controller.hpp-126][6_2_22_50_28]Request code processing server successful
+[INFO][MainServer.cpp-150][6_2_22_50_29]get a get username request
+[INFO][MainServer.cpp-150][6_2_22_50_31]get a get username request
+[INFO][MainServer.cpp-150][6_2_22_50_35]get a get username request
+[INFO][MainServer.cpp-150][6_2_22_50_36]get a get username request
+[INFO][MainServer.cpp-150][6_2_22_50_38]get a get username request
+[INFO][MainServer.cpp-150][6_2_22_50_43]get a get username request
+[WARINNG][DataBases.hpp-52][6_9_0_41_27]select * from questionlist 执行失败
+[NORMAL][DataBases.hpp-192][6_9_0_42_40]Successfully linked MySQL
+[NORMAL][LoadBalancer.hpp-77][6_9_0_42_40]Successfully loaded configuration file: ./conf/ServerHost.conf
+[WARINNG][DataBases.hpp-52][6_9_1_0_37]select * from questionlist 执行失败
+[NORMAL][DataBases.hpp-192][6_9_1_6_13]Successfully linked MySQL
+[NORMAL][LoadBalancer.hpp-77][6_9_1_6_13]Successfully loaded configuration file: ./conf/ServerHost.conf
+[NORMAL][DataBases.hpp-192][6_11_22_54_58]Successfully linked MySQL
+[NORMAL][LoadBalancer.hpp-77][6_11_22_54_58]Successfully loaded configuration file: ./conf/ServerHost.conf
+[NORMAL][MainServer.cpp-44][6_14_23_35_39]Get a sign request
+[NORMAL][ModelLayer.hpp-108][6_14_23_35_39]用户:bjy 登录成功
+[INFO][MainServer.cpp-150][6_14_23_35_41]get a get username request
+[INFO][MainServer.cpp-150][6_14_23_35_42]get a get username request
+[INFO][MainServer.cpp-150][6_14_23_35_45]get a get username request
+[NORMAL][Controller.hpp-119][6_14_23_35_47]Successfully selected the host with the least load, hostID:0 ip:43.139.44.157 port:8081 当前主机负载为:1
+[NORMAL][Controller.hpp-126][6_14_23_35_48]Request code processing server successful
+[INFO][MainServer.cpp-150][6_14_23_45_41]get a get username request
+[MORMAL][MainServer.cpp-70][6_14_23_51_47]get a administrator sign request
+[NORMAL][ModelLayer.hpp-108][6_14_23_51_47]用户:root 登录成功
 1
 {"Result":"0"}
 
-[INFO][MainServer.cpp-150][5_3_2_22_35]get a get username request
-[INFO][MainServer.cpp-150][5_3_2_22_37]get a get username request
-[NORMAL][MainServer.cpp-131][5_3_2_23_40]get a add job request
-insert into joblist(`name`, `position`, `salary`, `address`, `describe`, `phone`) values('上海宽德投资管理中心', '高性能计算工程师', '20-40K * 16薪', '上海/珠海', '岗位职责
-高性能计算工程师，探索不同硬件平台上的高性能计算技术研究，结合量化行业的计算需求特征，打造领先的高性能推理平台，为交易提供高效可靠的计算服务。
-岗位职责：
-● 研究CPU/GPU等硬件平台上的高性能计算技术，参与高性能计算库、推理引擎的开发与优化。
-● 探索基于计算图分析的高性能算子自动生成与优化方法。
-● 与硬件团队联合，进行软硬协调设计，探索异构加速的极致方案。
-● 探索各种前沿技术，持续改进相关系统的性能。
+[INFO][MainServer.cpp-150][6_14_23_51_50]get a get username request
+[INFO][MainServer.cpp-150][6_14_23_51_51]get a get username request
+[NORMAL][MainServer.cpp-124][6_14_23_52_48]get a add question request
+insert into questionlist(title, difficulty, `describe`, headContent, tailContent, CpuLimit, MemoryLimit) values('   分割平衡字符串', 'Easy', '平衡字符串 中，'L' 和 'R' 字符的数量是相同的。
 
-岗位要求
-●  全日制重点高校本科及以上学历，计算机、软件工程、电子工程等理工科相关专业。
-●  掌握C/C++/Python中的一种或多种语言。
-●  扎实掌握计算机体系结构、数据结构和算法等基础。
-●  享受编程，享受创造，具有强烈的好奇心与追求极致的态度。
+给你一个平衡字符串 s，请你将它分割成尽可能多的子字符串，并满足：
 
-加分项：（非必选项，能有一项或多项符合者优先）
-● 熟悉算法优化，并在相关算法竞赛活动中获得优秀成绩优先。
-● 熟悉特定体系(CPU/GPU)的性能优化，并有实际优化经验优先。
-● 熟悉一种或多种并行编程语言优先，如MPI/OpenMP/OpenCL/CUDA等。
-● 熟悉机器学习在线推理，有TensorRT、OpenVINO相关经验优先。
-● 熟悉TVM等机器学习编译器的开发，并有相关经验。',' 132-1111-2222');
-[NORMAL][DataBases.hpp-144][5_3_2_23_40]添加工作成功
-[INFO][MainServer.cpp-150][5_3_2_23_42]get a get username request
-[NORMAL][MainServer.cpp-44][5_3_2_23_57]Get a sign request
-[NORMAL][ModelLayer.hpp-108][5_3_2_23_57]用户:example 登录成功
-[INFO][MainServer.cpp-150][5_3_2_23_58]get a get username request
-[INFO][MainServer.cpp-150][5_3_2_24_25]get a get username request
-[INFO][MainServer.cpp-150][5_3_2_24_26]get a get username request
-[INFO][MainServer.cpp-150][5_3_2_24_31]get a get username request
-[INFO][MainServer.cpp-150][5_3_2_25_30]get a get username request
-[INFO][MainServer.cpp-150][5_3_2_25_34]get a get username request
-[NORMAL][Controller.hpp-119][5_3_2_25_40]Successfully selected the host with the least load, hostID:0 ip:43.139.44.157 port:8081 当前主机负载为:1
-[NORMAL][Controller.hpp-126][5_3_2_25_41]Request code processing server successful
-[INFO][MainServer.cpp-150][5_3_2_25_45]get a get username request
-[INFO][MainServer.cpp-150][5_3_2_25_47]get a get username request
-[NORMAL][MainServer.cpp-44][5_3_15_2_52]Get a sign request
-[NORMAL][ModelLayer.hpp-108][5_3_15_2_52]用户:bjy 登录成功
-[INFO][MainServer.cpp-150][5_3_15_2_54]get a get username request
-[INFO][MainServer.cpp-150][5_3_15_2_55]get a get username request
-[INFO][MainServer.cpp-150][5_3_15_2_58]get a get username request
-[NORMAL][Controller.hpp-119][5_3_15_2_59]Successfully selected the host with the least load, hostID:0 ip:43.139.44.157 port:8081 当前主机负载为:1
-[NORMAL][Controller.hpp-119][5_3_15_2_59]Successfully selected the host with the least load, hostID:1 ip:43.139.44.157 port:8082 当前主机负载为:1
-[ERROR][Controller.hpp-133][5_3_15_2_59]Request code processing server failed, hostID:1 ip: 43.139.44.157 port: 8082
-当前在线主机列表
-0 2 3 4 5 
-当前离线主机列表
-1 
-[NORMAL][Controller.hpp-119][5_3_15_2_59]Successfully selected the host with the least load, hostID:2 ip:43.139.44.157 port:8083 当前主机负载为:1
-[ERROR][Controller.hpp-133][5_3_15_2_59]Request code processing server failed, hostID:2 ip: 43.139.44.157 port: 8083
-当前在线主机列表
-0 3 4 5 
-当前离线主机列表
-1 2 
-[NORMAL][Controller.hpp-119][5_3_15_2_59]Successfully selected the host with the least load, hostID:3 ip:159.75.2.6 port:8081 当前主机负载为:1
-[NORMAL][Controller.hpp-126][5_3_15_2_59]Request code processing server successful
-[NORMAL][Controller.hpp-119][5_3_15_2_59]Successfully selected the host with the least load, hostID:0 ip:43.139.44.157 port:8081 当前主机负载为:1
-[NORMAL][Controller.hpp-126][5_3_15_3_0]Request code processing server successful
-[NORMAL][Controller.hpp-119][5_3_15_3_0]Successfully selected the host with the least load, hostID:3 ip:159.75.2.6 port:8081 当前主机负载为:1
-[NORMAL][Controller.hpp-126][5_3_15_3_0]Request code processing server successful
-[NORMAL][Controller.hpp-119][5_3_15_3_0]Successfully selected the host with the least load, hostID:0 ip:43.139.44.157 port:8081 当前主机负载为:1
-[NORMAL][Controller.hpp-126][5_3_15_3_0]Request code processing server successful
-[NORMAL][Controller.hpp-119][5_3_15_3_0]Successfully selected the host with the least load, hostID:3 ip:159.75.2.6 port:8081 当前主机负载为:1
-[NORMAL][Controller.hpp-126][5_3_15_3_0]Request code processing server successful
-[NORMAL][Controller.hpp-119][5_3_15_3_0]Successfully selected the host with the least load, hostID:0 ip:43.139.44.157 port:8081 当前主机负载为:1
-[NORMAL][Controller.hpp-126][5_3_15_3_0]Request code processing server successful
-[NORMAL][Controller.hpp-119][5_3_15_3_0]Successfully selected the host with the least load, hostID:3 ip:159.75.2.6 port:8081 当前主机负载为:1
-[NORMAL][Controller.hpp-126][5_3_15_3_1]Request code processing server successful
-[NORMAL][Controller.hpp-119][5_3_15_3_1]Successfully selected the host with the least load, hostID:0 ip:43.139.44.157 port:8081 当前主机负载为:1
-[NORMAL][Controller.hpp-126][5_3_15_3_1]Request code processing server successful
-[NORMAL][Controller.hpp-119][5_3_15_3_1]Successfully selected the host with the least load, hostID:3 ip:159.75.2.6 port:8081 当前主机负载为:1
-[NORMAL][Controller.hpp-126][5_3_15_3_1]Request code processing server successful
-[NORMAL][Controller.hpp-119][5_3_15_3_1]Successfully selected the host with the least load, hostID:0 ip:43.139.44.157 port:8081 当前主机负载为:1
-[NORMAL][Controller.hpp-126][5_3_15_3_1]Request code processing server successful
-[NORMAL][Controller.hpp-119][5_3_15_3_1]Successfully selected the host with the least load, hostID:3 ip:159.75.2.6 port:8081 当前主机负载为:1
-[NORMAL][Controller.hpp-126][5_3_15_3_2]Request code processing server successful
-[NORMAL][Controller.hpp-119][5_3_15_3_2]Successfully selected the host with the least load, hostID:0 ip:43.139.44.157 port:8081 当前主机负载为:1
-[NORMAL][Controller.hpp-126][5_3_15_3_2]Request code processing server successful
-[NORMAL][Controller.hpp-119][5_3_15_3_2]Successfully selected the host with the least load, hostID:3 ip:159.75.2.6 port:8081 当前主机负载为:1
-[NORMAL][Controller.hpp-126][5_3_15_3_2]Request code processing server successful
-[NORMAL][Controller.hpp-119][5_3_15_3_2]Successfully selected the host with the least load, hostID:0 ip:43.139.44.157 port:8081 当前主机负载为:1
-[NORMAL][Controller.hpp-126][5_3_15_3_2]Request code processing server successful
-[NORMAL][Controller.hpp-119][5_3_15_3_2]Successfully selected the host with the least load, hostID:3 ip:159.75.2.6 port:8081 当前主机负载为:1
-[NORMAL][Controller.hpp-126][5_3_15_3_2]Request code processing server successful
-[NORMAL][Controller.hpp-119][5_3_15_3_3]Successfully selected the host with the least load, hostID:0 ip:43.139.44.157 port:8081 当前主机负载为:1
-[NORMAL][Controller.hpp-126][5_3_15_3_3]Request code processing server successful
-[NORMAL][Controller.hpp-119][5_3_15_3_3]Successfully selected the host with the least load, hostID:3 ip:159.75.2.6 port:8081 当前主机负载为:1
-[NORMAL][Controller.hpp-126][5_3_15_3_3]Request code processing server successful
-[NORMAL][Controller.hpp-119][5_3_15_3_3]Successfully selected the host with the least load, hostID:0 ip:43.139.44.157 port:8081 当前主机负载为:1
-[NORMAL][Controller.hpp-126][5_3_15_3_3]Request code processing server successful
-[NORMAL][Controller.hpp-119][5_3_15_3_3]Successfully selected the host with the least load, hostID:3 ip:159.75.2.6 port:8081 当前主机负载为:1
-[NORMAL][Controller.hpp-126][5_3_15_3_3]Request code processing server successful
-[NORMAL][Controller.hpp-119][5_3_15_3_4]Successfully selected the host with the least load, hostID:0 ip:43.139.44.157 port:8081 当前主机负载为:1
-[NORMAL][Controller.hpp-126][5_3_15_3_4]Request code processing server successful
-[NORMAL][Controller.hpp-119][5_3_15_3_4]Successfully selected the host with the least load, hostID:3 ip:159.75.2.6 port:8081 当前主机负载为:1
-[NORMAL][Controller.hpp-126][5_3_15_3_4]Request code processing server successful
-[NORMAL][Controller.hpp-126][5_3_15_3_4]Request code processing server successful
-[NORMAL][Controller.hpp-119][5_3_15_3_4]Successfully selected the host with the least load, hostID:0 ip:43.139.44.157 port:8081 当前主机负载为:1
-[NORMAL][Controller.hpp-119][5_3_15_3_5]Successfully selected the host with the least load, hostID:3 ip:159.75.2.6 port:8081 当前主机负载为:1
-[NORMAL][Controller.hpp-126][5_3_15_3_5]Request code processing server successful
-[NORMAL][Controller.hpp-126][5_3_15_3_5]Request code processing server successful
-[NORMAL][Controller.hpp-119][5_3_15_3_5]Successfully selected the host with the least load, hostID:0 ip:43.139.44.157 port:8081 当前主机负载为:1
-[NORMAL][Controller.hpp-119][5_3_15_3_5]Successfully selected the host with the least load, hostID:3 ip:159.75.2.6 port:8081 当前主机负载为:1
-[NORMAL][Controller.hpp-126][5_3_15_3_5]Request code processing server successful
-[NORMAL][Controller.hpp-119][5_3_15_3_6]Successfully selected the host with the least load, hostID:0 ip:43.139.44.157 port:8081 当前主机负载为:1
-[NORMAL][Controller.hpp-126][5_3_15_3_6]Request code processing server successful
-[NORMAL][Controller.hpp-126][5_3_15_3_6]Request code processing server successful
-[NORMAL][Controller.hpp-119][5_3_15_3_6]Successfully selected the host with the least load, hostID:0 ip:43.139.44.157 port:8081 当前主机负载为:1
-[NORMAL][Controller.hpp-126][5_3_15_3_7]Request code processing server successful
-[NORMAL][Controller.hpp-119][5_3_15_3_7]Successfully selected the host with the least load, hostID:0 ip:43.139.44.157 port:8081 当前主机负载为:1
-[NORMAL][Controller.hpp-126][5_3_15_3_7]Request code processing server successful
-[NORMAL][Controller.hpp-119][5_3_15_3_7]Successfully selected the host with the least load, hostID:0 ip:43.139.44.157 port:8081 当前主机负载为:1
-[NORMAL][Controller.hpp-126][5_3_15_3_7]Request code processing server successful
-[NORMAL][Controller.hpp-119][5_3_15_3_8]Successfully selected the host with the least load, hostID:0 ip:43.139.44.157 port:8081 当前主机负载为:1
-[NORMAL][Controller.hpp-126][5_3_15_3_8]Request code processing server successful
-[NORMAL][Controller.hpp-119][5_3_15_3_8]Successfully selected the host with the least load, hostID:0 ip:43.139.44.157 port:8081 当前主机负载为:1
-[NORMAL][Controller.hpp-126][5_3_15_3_9]Request code processing server successful
-[NORMAL][LoadBalancer.hpp-111][5_3_15_8_24]All hosts are online
-[NORMAL][Controller.hpp-119][5_3_15_9_1]Successfully selected the host with the least load, hostID:0 ip:43.139.44.157 port:8081 当前主机负载为:1
-[NORMAL][Controller.hpp-119][5_3_15_9_1]Successfully selected the host with the least load, hostID:3 ip:159.75.2.6 port:8081 当前主机负载为:1
-[NORMAL][Controller.hpp-119][5_3_15_9_1]Successfully selected the host with the least load, hostID:4 ip:159.75.2.6 port:8082 当前主机负载为:1
-[NORMAL][Controller.hpp-119][5_3_15_9_1]Successfully selected the host with the least load, hostID:5 ip:159.75.2.6 port:8083 当前主机负载为:1
-[ERROR][Controller.hpp-133][5_3_15_9_1]Request code processing server failed, hostID:5 ip: 159.75.2.6 port: 8083
-当前在线主机列表
-0 3 4 1 2 
-当前离线主机列表
-5 
-[NORMAL][Controller.hpp-119][5_3_15_9_1]Successfully selected the host with the least load, hostID:1 ip:43.139.44.157 port:8082 当前主机负载为:1
-[ERROR][Controller.hpp-133][5_3_15_9_1]Request code processing server failed, hostID:1 ip: 43.139.44.157 port: 8082
-当前在线主机列表
-0 3 4 2 
-当前离线主机列表
-5 1 
-[NORMAL][Controller.hpp-119][5_3_15_9_1]Successfully selected the host with the least load, hostID:2 ip:43.139.44.157 port:8083 当前主机负载为:1
-[ERROR][Controller.hpp-133][5_3_15_9_1]Request code processing server failed, hostID:2 ip: 43.139.44.157 port: 8083
-当前在线主机列表
-0 3 4 
-当前离线主机列表
-5 1 2 
-[NORMAL][Controller.hpp-119][5_3_15_9_1]Successfully selected the host with the least load, hostID:0 ip:43.139.44.157 port:8081 当前主机负载为:2
-[NORMAL][Controller.hpp-126][5_3_15_9_1]Request code processing server successful
-[NORMAL][Controller.hpp-126][5_3_15_9_1]Request code processing server successful
-[NORMAL][Controller.hpp-126][5_3_15_9_2]Request code processing server successful
-[NORMAL][Controller.hpp-126][5_3_15_9_2]Request code processing server successful
-[INFO][MainServer.cpp-150][5_3_15_9_3]get a get username request
-[NORMAL][Controller.hpp-119][5_3_15_9_4]Successfully selected the host with the least load, hostID:0 ip:43.139.44.157 port:8081 当前主机负载为:1
-[NORMAL][Controller.hpp-126][5_3_15_9_4]Request code processing server successful
-[NORMAL][Controller.hpp-119][5_3_15_9_5]Successfully selected the host with the least load, hostID:0 ip:43.139.44.157 port:8081 当前主机负载为:1
-[NORMAL][Controller.hpp-119][5_3_15_9_5]Successfully selected the host with the least load, hostID:3 ip:159.75.2.6 port:8081 当前主机负载为:1
-[NORMAL][Controller.hpp-126][5_3_15_9_5]Request code processing server successful
-[NORMAL][Controller.hpp-119][5_3_15_9_5]Successfully selected the host with the least load, hostID:0 ip:43.139.44.157 port:8081 当前主机负载为:1
-[NORMAL][Controller.hpp-126][5_3_15_9_5]Request code processing server successful
-[NORMAL][Controller.hpp-119][5_3_15_9_5]Successfully selected the host with the least load, hostID:3 ip:159.75.2.6 port:8081 当前主机负载为:1
-[NORMAL][Controller.hpp-119][5_3_15_9_5]Successfully selected the host with the least load, hostID:4 ip:159.75.2.6 port:8082 当前主机负载为:1
-[NORMAL][Controller.hpp-126][5_3_15_9_5]Request code processing server successful
-[NORMAL][Controller.hpp-119][5_3_15_9_5]Successfully selected the host with the least load, hostID:0 ip:43.139.44.157 port:8081 当前主机负载为:1
-[NORMAL][Controller.hpp-126][5_3_15_9_6]Request code processing server successful
-[NORMAL][Controller.hpp-119][5_3_15_9_6]Successfully selected the host with the least load, hostID:3 ip:159.75.2.6 port:8081 当前主机负载为:1
-[NORMAL][Controller.hpp-126][5_3_15_9_6]Request code processing server successful
-[NORMAL][Controller.hpp-126][5_3_15_9_6]Request code processing server successful
-[NORMAL][Controller.hpp-119][5_3_15_9_6]Successfully selected the host with the least load, hostID:0 ip:43.139.44.157 port:8081 当前主机负载为:1
-[NORMAL][Controller.hpp-119][5_3_15_9_6]Successfully selected the host with the least load, hostID:4 ip:159.75.2.6 port:8082 当前主机负载为:1
-[NORMAL][Controller.hpp-126][5_3_15_9_6]Request code processing server successful
-[NORMAL][Controller.hpp-126][5_3_15_9_6]Request code processing server successful
-[NORMAL][Controller.hpp-119][5_3_15_9_6]Successfully selected the host with the least load, hostID:0 ip:43.139.44.157 port:8081 当前主机负载为:1
-[NORMAL][Controller.hpp-126][5_3_15_9_6]Request code processing server successful
-[NORMAL][Controller.hpp-119][5_3_15_9_6]Successfully selected the host with the least load, hostID:3 ip:159.75.2.6 port:8081 当前主机负载为:1
-[NORMAL][Controller.hpp-119][5_3_15_9_7]Successfully selected the host with the least load, hostID:4 ip:159.75.2.6 port:8082 当前主机负载为:1
-[NORMAL][Controller.hpp-126][5_3_15_9_7]Request code processing server successful
-[NORMAL][Controller.hpp-119][5_3_15_9_7]Successfully selected the host with the least load, hostID:0 ip:43.139.44.157 port:8081 当前主机负载为:1
-[NORMAL][Controller.hpp-126][5_3_15_9_7]Request code processing server successful
-[NORMAL][Controller.hpp-119][5_3_15_9_7]Successfully selected the host with the least load, hostID:3 ip:159.75.2.6 port:8081 当前主机负载为:1
-[NORMAL][Controller.hpp-126][5_3_15_9_7]Request code processing server successful
-[NORMAL][Controller.hpp-126][5_3_15_9_7]Request code processing server successful
-[NORMAL][Controller.hpp-119][5_3_15_9_7]Successfully selected the host with the least load, hostID:0 ip:43.139.44.157 port:8081 当前主机负载为:1
-[NORMAL][Controller.hpp-126][5_3_15_9_7]Request code processing server successful
-[NORMAL][Controller.hpp-119][5_3_15_9_8]Successfully selected the host with the least load, hostID:3 ip:159.75.2.6 port:8081 当前主机负载为:1
-[NORMAL][Controller.hpp-126][5_3_15_9_8]Request code processing server successful
-[NORMAL][Controller.hpp-126][5_3_15_9_8]Request code processing server successful
-[INFO][MainServer.cpp-150][5_3_21_41_40]get a get username request
-[INFO][MainServer.cpp-150][5_3_21_41_52]get a get username request
-[INFO][MainServer.cpp-150][5_3_21_41_58]get a get username request
-[NORMAL][Controller.hpp-119][5_3_21_53_34]Successfully selected the host with the least load, hostID:0 ip:43.139.44.157 port:8081 当前主机负载为:1
-[NORMAL][Controller.hpp-126][5_3_21_53_35]Request code processing server successful
-[INFO][MainServer.cpp-150][5_3_21_53_49]get a get username request
-[INFO][MainServer.cpp-150][5_3_21_53_50]get a get username request
-[INFO][MainServer.cpp-150][5_3_21_53_51]get a get username request
-[NORMAL][Controller.hpp-119][5_3_21_54_18]Successfully selected the host with the least load, hostID:0 ip:43.139.44.157 port:8081 当前主机负载为:1
-[NORMAL][Controller.hpp-126][5_3_21_54_18]Request code processing server successful
-[NORMAL][Controller.hpp-119][5_3_22_4_9]Successfully selected the host with the least load, hostID:0 ip:43.139.44.157 port:8081 当前主机负载为:1
-[NORMAL][Controller.hpp-119][5_3_22_4_11]Successfully selected the host with the least load, hostID:3 ip:159.75.2.6 port:8081 当前主机负载为:1
-[NORMAL][Controller.hpp-126][5_3_22_4_12]Request code processing server successful
-[NORMAL][Controller.hpp-126][5_3_22_4_14]Request code processing server successful
-[NORMAL][Controller.hpp-119][5_3_22_5_5]Successfully selected the host with the least load, hostID:0 ip:43.139.44.157 port:8081 当前主机负载为:1
-[NORMAL][Controller.hpp-126][5_3_22_5_5]Request code processing server successful
-[NORMAL][Controller.hpp-119][5_3_22_5_15]Successfully selected the host with the least load, hostID:0 ip:43.139.44.157 port:8081 当前主机负载为:1
-[NORMAL][Controller.hpp-126][5_3_22_5_16]Request code processing server successful
-[NORMAL][Controller.hpp-119][5_3_22_5_19]Successfully selected the host with the least load, hostID:0 ip:43.139.44.157 port:8081 当前主机负载为:1
-[NORMAL][Controller.hpp-126][5_3_22_5_19]Request code processing server successful
-[NORMAL][Controller.hpp-119][5_3_22_6_20]Successfully selected the host with the least load, hostID:0 ip:43.139.44.157 port:8081 当前主机负载为:1
-[NORMAL][Controller.hpp-126][5_3_22_6_21]Request code processing server successful
-[NORMAL][Controller.hpp-119][5_3_22_6_39]Successfully selected the host with the least load, hostID:0 ip:43.139.44.157 port:8081 当前主机负载为:1
-[NORMAL][Controller.hpp-126][5_3_22_6_39]Request code processing server successful
-[NORMAL][Controller.hpp-119][5_3_22_6_41]Successfully selected the host with the least load, hostID:0 ip:43.139.44.157 port:8081 当前主机负载为:1
-[NORMAL][Controller.hpp-126][5_3_22_6_42]Request code processing server successful
-[NORMAL][Controller.hpp-119][5_3_22_7_37]Successfully selected the host with the least load, hostID:0 ip:43.139.44.157 port:8081 当前主机负载为:1
-[NORMAL][Controller.hpp-126][5_3_22_7_37]Request code processing server successful
-[NORMAL][Controller.hpp-119][5_3_22_8_1]Successfully selected the host with the least load, hostID:0 ip:43.139.44.157 port:8081 当前主机负载为:1
-[NORMAL][Controller.hpp-126][5_3_22_8_1]Request code processing server successful
-[NORMAL][Controller.hpp-119][5_3_23_7_17]Successfully selected the host with the least load, hostID:0 ip:43.139.44.157 port:8081 当前主机负载为:1
-[NORMAL][Controller.hpp-126][5_3_23_7_17]Request code processing server successful
-[INFO][MainServer.cpp-150][5_4_14_19_24]get a get username request
-[INFO][MainServer.cpp-150][5_4_14_19_24]get a get username request
-[INFO][MainServer.cpp-150][5_4_14_19_26]get a get username request
-[INFO][MainServer.cpp-150][5_4_14_19_26]get a get username request
-[INFO][MainServer.cpp-150][5_4_14_19_27]get a get username request
-[INFO][MainServer.cpp-150][5_4_14_19_40]get a get username request
-[INFO][MainServer.cpp-150][5_4_14_23_26]get a get username request
-[NORMAL][MainServer.cpp-44][5_6_13_26_8]Get a sign request
-[NORMAL][ModelLayer.hpp-111][5_6_13_26_8]用户不存在
-[NORMAL][MainServer.cpp-44][5_6_13_26_8]Get a sign request
-[NORMAL][ModelLayer.hpp-111][5_6_13_26_8]用户不存在
-[WARINNG][DataBases.hpp-52][5_8_3_35_32]select * from joblist where number=4 执行失败
-[WARINNG][DataBases.hpp-52][5_8_8_17_34]select * from joblist where number=3 执行失败
-[WARINNG][DataBases.hpp-52][5_8_8_51_50]select * from questionlist 执行失败
-[WARINNG][DataBases.hpp-52][5_8_12_36_19]select * from joblist where number=4 执行失败
-[WARINNG][DataBases.hpp-52][5_8_14_50_49]select * from joblist where number=3 执行失败
-[WARINNG][DataBases.hpp-52][5_8_19_3_17]select * from joblist where number=2 执行失败
-[WARINNG][DataBases.hpp-52][5_9_1_55_26]select * from joblist where number=5 执行失败
-[WARINNG][DataBases.hpp-52][5_9_5_22_25]select * from joblist where number=4 执行失败
-[WARINNG][DataBases.hpp-52][5_9_7_38_40]select * from joblist where number=3 执行失败
-[WARINNG][DataBases.hpp-52][5_9_8_54_26]select * from questionlist 执行失败
-[WARINNG][DataBases.hpp-52][5_9_8_54_27]select * from joblist where number=7 执行失败
-[WARINNG][DataBases.hpp-52][5_9_15_54_31]select * from joblist where number=4 执行失败
-[WARINNG][DataBases.hpp-52][5_9_19_48_36]select * from joblist where number=5 执行失败
-[WARINNG][DataBases.hpp-52][5_10_0_28_46]select * from joblist where number=2 执行失败
-[WARINNG][DataBases.hpp-52][5_10_0_30_30]select * from joblist 执行失败
-[WARINNG][DataBases.hpp-52][5_10_0_30_32]select * from joblist 执行失败
-[WARINNG][DataBases.hpp-52][5_10_0_46_24]select * from joblist where number=6 执行失败
-[WARINNG][DataBases.hpp-52][5_10_4_3_45]select * from joblist where number=3 执行失败
-[WARINNG][DataBases.hpp-52][5_10_6_47_49]select * from joblist where number=1 执行失败
-[WARINNG][DataBases.hpp-52][5_10_8_30_39]select * from joblist where number=4 执行失败
-[WARINNG][DataBases.hpp-52][5_10_8_59_30]select * from questionlist 执行失败
-[WARINNG][DataBases.hpp-52][5_10_11_46_34]select * from joblist where number=4 执行失败
-[WARINNG][DataBases.hpp-52][5_10_11_49_46]select * from joblist where number=6 执行失败
-[WARINNG][DataBases.hpp-52][5_10_16_42_24]select * from joblist where number=1 执行失败
-[WARINNG][DataBases.hpp-52][5_10_17_28_28]select * from joblist where number=5 执行失败
-[WARINNG][DataBases.hpp-52][5_10_19_42_22]select * from questionlist 执行失败
-[WARINNG][DataBases.hpp-52][5_10_19_54_44]select * from joblist 执行失败
-[WARINNG][DataBases.hpp-52][5_10_20_6_4]select * from joblist where number=2 执行失败
-[WARINNG][DataBases.hpp-52][5_10_20_9_1]select * from joblist where number=3 执行失败
-[WARINNG][DataBases.hpp-52][5_10_20_23_42]select * from questionlist where number=12 执行失败
-[WARINNG][DataBases.hpp-52][5_10_20_23_57]select * from questionlist 执行失败
-[WARINNG][DataBases.hpp-52][5_10_21_18_1]select * from joblist where number=7 执行失败
-[NORMAL][DataBases.hpp-192][5_14_19_42_0]Successfully linked MySQL
-[NORMAL][LoadBalancer.hpp-77][5_14_19_42_0]Successfully loaded configuration file: ./conf/ServerHost.conf
-[NORMAL][MainServer.cpp-44][5_14_19_43_36]Get a sign request
-[NORMAL][ModelLayer.hpp-108][5_14_19_43_36]用户:bjy 登录成功
-[INFO][MainServer.cpp-150][5_14_19_43_38]get a get username request
-[INFO][MainServer.cpp-150][5_14_19_43_39]get a get username request
-[INFO][MainServer.cpp-150][5_14_19_43_41]get a get username request
-[NORMAL][Controller.hpp-119][5_14_19_43_42]Successfully selected the host with the least load, hostID:0 ip:43.139.44.157 port:8081 当前主机负载为:1
-[NORMAL][Controller.hpp-126][5_14_19_43_43]Request code processing server successful
-[NORMAL][Controller.hpp-119][5_14_19_43_46]Successfully selected the host with the least load, hostID:0 ip:43.139.44.157 port:8081 当前主机负载为:1
-[NORMAL][Controller.hpp-119][5_14_19_43_46]Successfully selected the host with the least load, hostID:1 ip:43.139.44.157 port:8082 当前主机负载为:1
-[ERROR][Controller.hpp-133][5_14_19_43_46]Request code processing server failed, hostID:1 ip: 43.139.44.157 port: 8082
-当前在线主机列表
-0 2 3 4 5 
-当前离线主机列表
-1 
-[NORMAL][Controller.hpp-119][5_14_19_43_46]Successfully selected the host with the least load, hostID:2 ip:43.139.44.157 port:8083 当前主机负载为:1
-[ERROR][Controller.hpp-133][5_14_19_43_46]Request code processing server failed, hostID:2 ip: 43.139.44.157 port: 8083
-当前在线主机列表
-0 3 4 5 
-当前离线主机列表
-1 2 
-[NORMAL][Controller.hpp-119][5_14_19_43_46]Successfully selected the host with the least load, hostID:3 ip:159.75.2.6 port:8081 当前主机负载为:1
-[NORMAL][Controller.hpp-126][5_14_19_43_47]Request code processing server successful
-[NORMAL][Controller.hpp-119][5_14_19_43_47]Successfully selected the host with the least load, hostID:0 ip:43.139.44.157 port:8081 当前主机负载为:1
-[NORMAL][Controller.hpp-119][5_14_19_43_47]Successfully selected the host with the least load, hostID:4 ip:159.75.2.6 port:8082 当前主机负载为:1
-[NORMAL][Controller.hpp-126][5_14_19_43_47]Request code processing server successful
-[NORMAL][Controller.hpp-126][5_14_19_43_47]Request code processing server successful
-[NORMAL][Controller.hpp-119][5_14_19_43_47]Successfully selected the host with the least load, hostID:0 ip:43.139.44.157 port:8081 当前主机负载为:1
-[NORMAL][Controller.hpp-126][5_14_19_43_47]Request code processing server successful
-[NORMAL][Controller.hpp-119][5_14_19_43_47]Successfully selected the host with the least load, hostID:3 ip:159.75.2.6 port:8081 当前主机负载为:1
-[NORMAL][Controller.hpp-119][5_14_19_43_47]Successfully selected the host with the least load, hostID:4 ip:159.75.2.6 port:8082 当前主机负载为:1
-[NORMAL][Controller.hpp-126][5_14_19_43_47]Request code processing server successful
-[NORMAL][Controller.hpp-119][5_14_19_43_47]Successfully selected the host with the least load, hostID:0 ip:43.139.44.157 port:8081 当前主机负载为:1
-[NORMAL][Controller.hpp-126][5_14_19_43_48]Request code processing server successful
-[NORMAL][Controller.hpp-119][5_14_19_43_48]Successfully selected the host with the least load, hostID:3 ip:159.75.2.6 port:8081 当前主机负载为:1
-[NORMAL][Controller.hpp-126][5_14_19_43_48]Request code processing server successful
-[NORMAL][Controller.hpp-126][5_14_19_43_48]Request code processing server successful
-[NORMAL][Controller.hpp-119][5_14_19_43_48]Successfully selected the host with the least load, hostID:0 ip:43.139.44.157 port:8081 当前主机负载为:1
-[NORMAL][Controller.hpp-119][5_14_19_43_48]Successfully selected the host with the least load, hostID:4 ip:159.75.2.6 port:8082 当前主机负载为:1
-[NORMAL][Controller.hpp-126][5_14_19_43_48]Request code processing server successful
-[NORMAL][Controller.hpp-126][5_14_19_43_48]Request code processing server successful
-[NORMAL][Controller.hpp-119][5_14_19_43_48]Successfully selected the host with the least load, hostID:0 ip:43.139.44.157 port:8081 当前主机负载为:1
-[NORMAL][Controller.hpp-126][5_14_19_43_48]Request code processing server successful
-[NORMAL][Controller.hpp-119][5_14_19_43_48]Successfully selected the host with the least load, hostID:3 ip:159.75.2.6 port:8081 当前主机负载为:1
-[NORMAL][Controller.hpp-126][5_14_19_43_49]Request code processing server successful
-[NORMAL][Controller.hpp-119][5_14_19_43_49]Successfully selected the host with the least load, hostID:0 ip:43.139.44.157 port:8081 当前主机负载为:1
-[NORMAL][Controller.hpp-126][5_14_19_43_49]Request code processing server successful
-[NORMAL][Controller.hpp-119][5_14_19_43_49]Successfully selected the host with the least load, hostID:3 ip:159.75.2.6 port:8081 当前主机负载为:1
-[NORMAL][Controller.hpp-126][5_14_19_43_49]Request code processing server successful
-[NORMAL][Controller.hpp-119][5_14_19_43_49]Successfully selected the host with the least load, hostID:0 ip:43.139.44.157 port:8081 当前主机负载为:1
-[NORMAL][Controller.hpp-126][5_14_19_43_49]Request code processing server successful
-[NORMAL][Controller.hpp-119][5_14_19_43_49]Successfully selected the host with the least load, hostID:3 ip:159.75.2.6 port:8081 当前主机负载为:1
-[NORMAL][Controller.hpp-126][5_14_19_43_49]Request code processing server successful
-[NORMAL][Controller.hpp-119][5_14_19_43_49]Successfully selected the host with the least load, hostID:0 ip:43.139.44.157 port:8081 当前主机负载为:1
-[NORMAL][Controller.hpp-126][5_14_19_43_50]Request code processing server successful
-[NORMAL][Controller.hpp-119][5_14_19_43_50]Successfully selected the host with the least load, hostID:3 ip:159.75.2.6 port:8081 当前主机负载为:1
-[NORMAL][Controller.hpp-126][5_14_19_43_50]Request code processing server successful
-[NORMAL][Controller.hpp-119][5_14_19_43_50]Successfully selected the host with the least load, hostID:0 ip:43.139.44.157 port:8081 当前主机负载为:1
-[NORMAL][Controller.hpp-126][5_14_19_43_50]Request code processing server successful
-[NORMAL][Controller.hpp-119][5_14_19_43_50]Successfully selected the host with the least load, hostID:3 ip:159.75.2.6 port:8081 当前主机负载为:1
-[NORMAL][Controller.hpp-126][5_14_19_43_50]Request code processing server successful
-[NORMAL][Controller.hpp-119][5_14_19_43_50]Successfully selected the host with the least load, hostID:0 ip:43.139.44.157 port:8081 当前主机负载为:1
-[NORMAL][Controller.hpp-119][5_14_19_43_50]Successfully selected the host with the least load, hostID:4 ip:159.75.2.6 port:8082 当前主机负载为:1
-[NORMAL][Controller.hpp-126][5_14_19_43_50]Request code processing server successful
-[NORMAL][Controller.hpp-126][5_14_19_43_51]Request code processing server successful
-[NORMAL][Controller.hpp-126][5_14_19_43_51]Request code processing server successful
-[NORMAL][LoadBalancer.hpp-111][5_14_19_44_51]All hosts are online
-[NORMAL][Controller.hpp-119][5_14_19_45_2]Successfully selected the host with the least load, hostID:0 ip:43.139.44.157 port:8081 当前主机负载为:1
-[NORMAL][Controller.hpp-119][5_14_19_45_2]Successfully selected the host with the least load, hostID:3 ip:159.75.2.6 port:8081 当前主机负载为:1
-[NORMAL][Controller.hpp-126][5_14_19_45_2]Request code processing server successful
-[NORMAL][Controller.hpp-119][5_14_19_45_2]Successfully selected the host with the least load, hostID:0 ip:43.139.44.157 port:8081 当前主机负载为:1
-[NORMAL][Controller.hpp-126][5_14_19_45_2]Request code processing server successful
-[NORMAL][Controller.hpp-119][5_14_19_45_2]Successfully selected the host with the least load, hostID:3 ip:159.75.2.6 port:8081 当前主机负载为:1
-[NORMAL][Controller.hpp-119][5_14_19_45_3]Successfully selected the host with the least load, hostID:4 ip:159.75.2.6 port:8082 当前主机负载为:1
-[NORMAL][Controller.hpp-126][5_14_19_45_3]Request code processing server successful
-[NORMAL][Controller.hpp-119][5_14_19_45_3]Successfully selected the host with the least load, hostID:0 ip:43.139.44.157 port:8081 当前主机负载为:1
-[NORMAL][Controller.hpp-126][5_14_19_45_3]Request code processing server successful
-[NORMAL][Controller.hpp-119][5_14_19_45_3]Successfully selected the host with the least load, hostID:3 ip:159.75.2.6 port:8081 当前主机负载为:1
-[NORMAL][Controller.hpp-119][5_14_19_45_3]Successfully selected the host with the least load, hostID:5 ip:159.75.2.6 port:8083 当前主机负载为:1
-[ERROR][Controller.hpp-133][5_14_19_45_3]Request code processing server failed, hostID:5 ip: 159.75.2.6 port: 8083
-当前在线主机列表
-0 3 4 1 2 
-当前离线主机列表
-5 
-[NORMAL][Controller.hpp-119][5_14_19_45_3]Successfully selected the host with the least load, hostID:1 ip:43.139.44.157 port:8082 当前主机负载为:1
-[ERROR][Controller.hpp-133][5_14_19_45_3]Request code processing server failed, hostID:1 ip: 43.139.44.157 port: 8082
-当前在线主机列表
-0 3 4 2 
-当前离线主机列表
-5 1 
-[NORMAL][Controller.hpp-119][5_14_19_45_3]Successfully selected the host with the least load, hostID:2 ip:43.139.44.157 port:8083 当前主机负载为:1
-[ERROR][Controller.hpp-133][5_14_19_45_3]Request code processing server failed, hostID:2 ip: 43.139.44.157 port: 8083
-当前在线主机列表
-0 3 4 
-当前离线主机列表
-5 1 2 
-[NORMAL][Controller.hpp-119][5_14_19_45_3]Successfully selected the host with the least load, hostID:0 ip:43.139.44.157 port:8081 当前主机负载为:2
-[NORMAL][Controller.hpp-126][5_14_19_45_3]Request code processing server successful
-[NORMAL][Controller.hpp-126][5_14_19_45_3]Request code processing server successful
-[NORMAL][Controller.hpp-119][5_14_19_45_3]Successfully selected the host with the least load, hostID:4 ip:159.75.2.6 port:8082 当前主机负载为:1
-[NORMAL][Controller.hpp-126][5_14_19_45_3]Request code processing server successful
-[NORMAL][Controller.hpp-119][5_14_19_45_3]Successfully selected the host with the least load, hostID:3 ip:159.75.2.6 port:8081 当前主机负载为:1
-[NORMAL][Controller.hpp-126][5_14_19_45_3]Request code processing server successful
-[NORMAL][Controller.hpp-119][5_14_19_45_4]Successfully selected the host with the least load, hostID:0 ip:43.139.44.157 port:8081 当前主机负载为:1
-[NORMAL][Controller.hpp-119][5_14_19_45_4]Successfully selected the host with the least load, hostID:0 ip:43.139.44.157 port:8081 当前主机负载为:2
-[NORMAL][Controller.hpp-126][5_14_19_45_4]Request code processing server successful
-[NORMAL][Controller.hpp-126][5_14_19_45_4]Request code processing server successful
-[NORMAL][Controller.hpp-119][5_14_19_45_4]Successfully selected the host with the least load, hostID:3 ip:159.75.2.6 port:8081 当前主机负载为:1
-[NORMAL][Controller.hpp-126][5_14_19_45_4]Request code processing server successful
-[NORMAL][Controller.hpp-119][5_14_19_45_4]Successfully selected the host with the least load, hostID:4 ip:159.75.2.6 port:8082 当前主机负载为:1
-[NORMAL][Controller.hpp-126][5_14_19_45_4]Request code processing server successful
-[NORMAL][Controller.hpp-119][5_14_19_45_4]Successfully selected the host with the least load, hostID:0 ip:43.139.44.157 port:8081 当前主机负载为:1
-[NORMAL][Controller.hpp-126][5_14_19_45_4]Request code processing server successful
-[NORMAL][Controller.hpp-119][5_14_19_45_4]Successfully selected the host with the least load, hostID:3 ip:159.75.2.6 port:8081 当前主机负载为:1
-[NORMAL][Controller.hpp-126][5_14_19_45_5]Request code processing server successful
-[NORMAL][Controller.hpp-126][5_14_19_45_5]Request code processing server successful
-[NORMAL][Controller.hpp-126][5_14_19_45_5]Request code processing server successful
-[NORMAL][DataBases.hpp-192][5_14_21_7_11]Successfully linked MySQL
-[NORMAL][LoadBalancer.hpp-77][5_14_21_7_11]Successfully loaded configuration file: ./conf/ServerHost.conf
+每个子字符串都是平衡字符串。
+返回可以通过分割得到的平衡字符串的最大数量', '#include <iostream>
+#include <vector>
+#include <string>
+#include <map>
+using namespace std;
+class Solution {
+public:
+    int balancedStringSplit(string s) {
+
+    }
+};', 'bool Test1() {
+    string str = "RLRRRLLRLL";
+    int tmp = Solution().balancedStringSplit(str);
+    if (tmp == 2) return true;
+    else {
+        std::cout << "测试用例 RLRRRLLRLL 未通过" << std::endl;
+        return false;
+    }
+}
+
+bool Test2() {
+    string str = "RLRRLLRLRL";
+    int tmp = Solution().balancedStringSplit(str);
+    if (tmp == 4) return true;
+    else {
+        std::cout << "测试用例 RLRRLLRLRL 未通过" << std::endl;
+        return false;
+    }
+}
+
+bool Test3() {
+    string str = "LLLLRRRR";
+    int tmp = Solution().balancedStringSplit(str);
+    if (tmp == 1) return true;
+    else {
+        std::cout << "测试用例 LLLLRRRR 未通过" << std::endl;
+        return false;
+    }
+}
+
+int main()
+{
+    bool ret1 = Test1();
+    bool ret2 = Test2();
+    bool ret3 = Test3();
+    if (ret1 && ret2 && ret3) {
+        std::cout << "通过全部测试用例" << endl;
+    }
+    return 0;
+}', 1, 262144);
+[WARINNG][DataBases.hpp-42][6_14_23_52_48]insert into questionlist(title, difficulty, `describe`, headContent, tailContent, CpuLimit, MemoryLimit) values('   分割平衡字符串', 'Easy', '平衡字符串 中，'L' 和 'R' 字符的数量是相同的。
+
+给你一个平衡字符串 s，请你将它分割成尽可能多的子字符串，并满足：
+
+每个子字符串都是平衡字符串。
+返回可以通过分割得到的平衡字符串的最大数量', '#include <iostream>
+#include <vector>
+#include <string>
+#include <map>
+using namespace std;
+class Solution {
+public:
+    int balancedStringSplit(string s) {
+
+    }
+};', 'bool Test1() {
+    string str = "RLRRRLLRLL";
+    int tmp = Solution().balancedStringSplit(str);
+    if (tmp == 2) return true;
+    else {
+        std::cout << "测试用例 RLRRRLLRLL 未通过" << std::endl;
+        return false;
+    }
+}
+
+bool Test2() {
+    string str = "RLRRLLRLRL";
+    int tmp = Solution().balancedStringSplit(str);
+    if (tmp == 4) return true;
+    else {
+        std::cout << "测试用例 RLRRLLRLRL 未通过" << std::endl;
+        return false;
+    }
+}
+
+bool Test3() {
+    string str = "LLLLRRRR";
+    int tmp = Solution().balancedStringSplit(str);
+    if (tmp == 1) return true;
+    else {
+        std::cout << "测试用例 LLLLRRRR 未通过" << std::endl;
+        return false;
+    }
+}
+
+int main()
+{
+    bool ret1 = Test1();
+    bool ret2 = Test2();
+    bool ret3 = Test3();
+    if (ret1 && ret2 && ret3) {
+        std::cout << "通过全部测试用例" << endl;
+    }
+    return 0;
+}', 1, 262144); 执行失败
+[NORMAL][DataBases.hpp-113][6_14_23_52_48]题目添加失败
+[NORMAL][MainServer.cpp-124][6_14_23_53_5]get a add question request
+insert into questionlist(title, difficulty, `describe`, headContent, tailContent, CpuLimit, MemoryLimit) values('   分割平衡字符串', 'Easy', '平衡字符串中，'L'和'R'字符的数量是相同的。
+
+给你一个平衡字符串s，请你将它分割成尽可能多的子字符串，并满足：
+
+每个子字符串都是平衡字符串。
+返回可以通过分割得到的平衡字符串的最大数量', '#include <iostream>
+#include <vector>
+#include <string>
+#include <map>
+using namespace std;
+class Solution {
+public:
+    int balancedStringSplit(string s) {
+
+    }
+};', 'bool Test1() {
+    string str = "RLRRRLLRLL";
+    int tmp = Solution().balancedStringSplit(str);
+    if (tmp == 2) return true;
+    else {
+        std::cout << "测试用例 RLRRRLLRLL 未通过" << std::endl;
+        return false;
+    }
+}
+
+bool Test2() {
+    string str = "RLRRLLRLRL";
+    int tmp = Solution().balancedStringSplit(str);
+    if (tmp == 4) return true;
+    else {
+        std::cout << "测试用例 RLRRLLRLRL 未通过" << std::endl;
+        return false;
+    }
+}
+
+bool Test3() {
+    string str = "LLLLRRRR";
+    int tmp = Solution().balancedStringSplit(str);
+    if (tmp == 1) return true;
+    else {
+        std::cout << "测试用例 LLLLRRRR 未通过" << std::endl;
+        return false;
+    }
+}
+
+int main()
+{
+    bool ret1 = Test1();
+    bool ret2 = Test2();
+    bool ret3 = Test3();
+    if (ret1 && ret2 && ret3) {
+        std::cout << "通过全部测试用例" << endl;
+    }
+    return 0;
+}', 1, 262144);
+[WARINNG][DataBases.hpp-42][6_14_23_53_5]insert into questionlist(title, difficulty, `describe`, headContent, tailContent, CpuLimit, MemoryLimit) values('   分割平衡字符串', 'Easy', '平衡字符串中，'L'和'R'字符的数量是相同的。
+
+给你一个平衡字符串s，请你将它分割成尽可能多的子字符串，并满足：
+
+每个子字符串都是平衡字符串。
+返回可以通过分割得到的平衡字符串的最大数量', '#include <iostream>
+#include <vector>
+#include <string>
+#include <map>
+using namespace std;
+class Solution {
+public:
+    int balancedStringSplit(string s) {
+
+    }
+};', 'bool Test1() {
+    string str = "RLRRRLLRLL";
+    int tmp = Solution().balancedStringSplit(str);
+    if (tmp == 2) return true;
+    else {
+        std::cout << "测试用例 RLRRRLLRLL 未通过" << std::endl;
+        return false;
+    }
+}
+
+bool Test2() {
+    string str = "RLRRLLRLRL";
+    int tmp = Solution().balancedStringSplit(str);
+    if (tmp == 4) return true;
+    else {
+        std::cout << "测试用例 RLRRLLRLRL 未通过" << std::endl;
+        return false;
+    }
+}
+
+bool Test3() {
+    string str = "LLLLRRRR";
+    int tmp = Solution().balancedStringSplit(str);
+    if (tmp == 1) return true;
+    else {
+        std::cout << "测试用例 LLLLRRRR 未通过" << std::endl;
+        return false;
+    }
+}
+
+int main()
+{
+    bool ret1 = Test1();
+    bool ret2 = Test2();
+    bool ret3 = Test3();
+    if (ret1 && ret2 && ret3) {
+        std::cout << "通过全部测试用例" << endl;
+    }
+    return 0;
+}', 1, 262144); 执行失败
+[NORMAL][DataBases.hpp-113][6_14_23_53_5]题目添加失败
+[NORMAL][MainServer.cpp-124][6_14_23_53_21]get a add question request
+insert into questionlist(title, difficulty, `describe`, headContent, tailContent, CpuLimit, MemoryLimit) values('分割平衡字符串', 'Easy', '平衡字符串中，'L'和'R'字符的数量是相同的。
+
+给你一个平衡字符串s，请你将它分割成尽可能多的子字符串，并满足：
+
+每个子字符串都是平衡字符串。
+返回可以通过分割得到的平衡字符串的最大数量', '#include <iostream>
+#include <vector>
+#include <string>
+#include <map>
+using namespace std;
+class Solution {
+public:
+    int balancedStringSplit(string s) {
+
+    }
+};', 'bool Test1() {
+    string str = "RLRRRLLRLL";
+    int tmp = Solution().balancedStringSplit(str);
+    if (tmp == 2) return true;
+    else {
+        std::cout << "测试用例 RLRRRLLRLL 未通过" << std::endl;
+        return false;
+    }
+}
+
+bool Test2() {
+    string str = "RLRRLLRLRL";
+    int tmp = Solution().balancedStringSplit(str);
+    if (tmp == 4) return true;
+    else {
+        std::cout << "测试用例 RLRRLLRLRL 未通过" << std::endl;
+        return false;
+    }
+}
+
+bool Test3() {
+    string str = "LLLLRRRR";
+    int tmp = Solution().balancedStringSplit(str);
+    if (tmp == 1) return true;
+    else {
+        std::cout << "测试用例 LLLLRRRR 未通过" << std::endl;
+        return false;
+    }
+}
+
+int main()
+{
+    bool ret1 = Test1();
+    bool ret2 = Test2();
+    bool ret3 = Test3();
+    if (ret1 && ret2 && ret3) {
+        std::cout << "通过全部测试用例" << endl;
+    }
+    return 0;
+}', 1, 262144);
+[WARINNG][DataBases.hpp-42][6_14_23_53_21]insert into questionlist(title, difficulty, `describe`, headContent, tailContent, CpuLimit, MemoryLimit) values('分割平衡字符串', 'Easy', '平衡字符串中，'L'和'R'字符的数量是相同的。
+
+给你一个平衡字符串s，请你将它分割成尽可能多的子字符串，并满足：
+
+每个子字符串都是平衡字符串。
+返回可以通过分割得到的平衡字符串的最大数量', '#include <iostream>
+#include <vector>
+#include <string>
+#include <map>
+using namespace std;
+class Solution {
+public:
+    int balancedStringSplit(string s) {
+
+    }
+};', 'bool Test1() {
+    string str = "RLRRRLLRLL";
+    int tmp = Solution().balancedStringSplit(str);
+    if (tmp == 2) return true;
+    else {
+        std::cout << "测试用例 RLRRRLLRLL 未通过" << std::endl;
+        return false;
+    }
+}
+
+bool Test2() {
+    string str = "RLRRLLRLRL";
+    int tmp = Solution().balancedStringSplit(str);
+    if (tmp == 4) return true;
+    else {
+        std::cout << "测试用例 RLRRLLRLRL 未通过" << std::endl;
+        return false;
+    }
+}
+
+bool Test3() {
+    string str = "LLLLRRRR";
+    int tmp = Solution().balancedStringSplit(str);
+    if (tmp == 1) return true;
+    else {
+        std::cout << "测试用例 LLLLRRRR 未通过" << std::endl;
+        return false;
+    }
+}
+
+int main()
+{
+    bool ret1 = Test1();
+    bool ret2 = Test2();
+    bool ret3 = Test3();
+    if (ret1 && ret2 && ret3) {
+        std::cout << "通过全部测试用例" << endl;
+    }
+    return 0;
+}', 1, 262144); 执行失败
+[NORMAL][DataBases.hpp-113][6_14_23_53_21]题目添加失败
+[NORMAL][MainServer.cpp-124][6_14_23_56_16]get a add question request
+insert into questionlist(title, difficulty, `describe`, headContent, tailContent, CpuLimit, MemoryLimit) values('分割平衡字符串', 'Easy', '平衡字符串中，L和R字符的数量是相同的。
+
+给你一个平衡字符串s，请你将它分割成尽可能多的子字符串，并满足：
+
+每个子字符串都是平衡字符串。
+返回可以通过分割得到的平衡字符串的最大数量', '#include <iostream>
+#include <vector>
+#include <string>
+#include <map>
+using namespace std;
+class Solution {
+public:
+    int balancedStringSplit(string s) {
+
+    }
+};', 'bool Test1() {
+    string str = "RLRRRLLRLL";
+    int tmp = Solution().balancedStringSplit(str);
+    if (tmp == 2) return true;
+    else {
+        std::cout << "测试用例 RLRRRLLRLL 未通过" << std::endl;
+        return false;
+    }
+}
+
+bool Test2() {
+    string str = "RLRRLLRLRL";
+    int tmp = Solution().balancedStringSplit(str);
+    if (tmp == 4) return true;
+    else {
+        std::cout << "测试用例 RLRRLLRLRL 未通过" << std::endl;
+        return false;
+    }
+}
+
+bool Test3() {
+    string str = "LLLLRRRR";
+    int tmp = Solution().balancedStringSplit(str);
+    if (tmp == 1) return true;
+    else {
+        std::cout << "测试用例 LLLLRRRR 未通过" << std::endl;
+        return false;
+    }
+}
+
+int main()
+{
+    bool ret1 = Test1();
+    bool ret2 = Test2();
+    bool ret3 = Test3();
+    if (ret1 && ret2 && ret3) {
+        std::cout << "通过全部测试用例" << endl;
+    }
+    return 0;
+}', 1, 262144);
+[NORMAL][DataBases.hpp-109][6_14_23_56_16]题目添加成功
+[INFO][MainServer.cpp-150][6_14_23_56_18]get a get username request
+[NORMAL][MainServer.cpp-44][6_14_23_56_33]Get a sign request
+[NORMAL][ModelLayer.hpp-108][6_14_23_56_33]用户:bjy 登录成功
+[INFO][MainServer.cpp-150][6_14_23_56_34]get a get username request
+[INFO][MainServer.cpp-150][6_14_23_56_35]get a get username request
+[INFO][MainServer.cpp-150][6_14_23_56_38]get a get username request
+[NORMAL][Controller.hpp-119][6_14_23_56_39]Successfully selected the host with the least load, hostID:0 ip:43.139.44.157 port:8081 当前主机负载为:1
+[NORMAL][Controller.hpp-126][6_14_23_56_40]Request code processing server successful
+[NORMAL][Controller.hpp-119][6_14_23_56_51]Successfully selected the host with the least load, hostID:0 ip:43.139.44.157 port:8081 当前主机负载为:1
+[NORMAL][Controller.hpp-126][6_14_23_56_51]Request code processing server successful
+[NORMAL][Controller.hpp-119][6_14_23_57_13]Successfully selected the host with the least load, hostID:0 ip:43.139.44.157 port:8081 当前主机负载为:1
+[NORMAL][Controller.hpp-126][6_14_23_57_14]Request code processing server successful
+[NORMAL][MainServer.cpp-44][6_14_23_59_41]Get a sign request
+[NORMAL][ModelLayer.hpp-108][6_14_23_59_41]用户:bjy 登录成功
+[INFO][MainServer.cpp-150][6_14_23_59_43]get a get username request
+[INFO][MainServer.cpp-150][6_14_23_59_44]get a get username request
+[NORMAL][MainServer.cpp-44][6_15_8_12_1]Get a sign request
+[NORMAL][ModelLayer.hpp-108][6_15_8_12_1]用户:bjy 登录成功
+[INFO][MainServer.cpp-150][6_15_8_12_3]get a get username request
+[INFO][MainServer.cpp-150][6_15_8_12_7]get a get username request
+[INFO][MainServer.cpp-150][6_15_8_12_10]get a get username request
+[INFO][MainServer.cpp-150][6_15_8_12_12]get a get username request
+[INFO][MainServer.cpp-150][6_15_8_12_14]get a get username request
+[NORMAL][MainServer.cpp-44][6_15_9_4_9]Get a sign request
+[NORMAL][ModelLayer.hpp-108][6_15_9_4_9]用户:bjy 登录成功
+[NORMAL][MainServer.cpp-44][6_15_9_4_46]Get a sign request
+[NORMAL][ModelLayer.hpp-108][6_15_9_4_46]用户:bjy 登录成功
+[NORMAL][MainServer.cpp-44][6_15_9_6_59]Get a sign request
+[NORMAL][ModelLayer.hpp-108][6_15_9_6_59]用户:bjy 登录成功
+[NORMAL][MainServer.cpp-44][6_15_9_12_4]Get a sign request
+[NORMAL][ModelLayer.hpp-108][6_15_9_12_4]用户:bjy 登录成功
+[INFO][MainServer.cpp-150][6_15_9_12_6]get a get username request
+[INFO][MainServer.cpp-150][6_15_9_12_8]get a get username request
+[NORMAL][MainServer.cpp-44][6_15_14_9_21]Get a sign request
+[NORMAL][ModelLayer.hpp-108][6_15_14_9_21]用户:bjy 登录成功
+[INFO][MainServer.cpp-150][6_15_14_9_23]get a get username request
+[INFO][MainServer.cpp-150][6_15_14_9_25]get a get username request
+[WARINNG][DataBases.hpp-52][6_21_11_55_29]select * from joblist 执行失败
+[WARINNG][DataBases.hpp-52][6_21_11_55_30]select * from questionlist 执行失败
+[WARINNG][DataBases.hpp-52][6_21_12_5_11]select * from joblist 执行失败
+[WARINNG][DataBases.hpp-52][6_21_12_5_23]select * from questionlist 执行失败
+[WARINNG][DataBases.hpp-52][6_21_12_59_25]select * from questionlist 执行失败
+[WARINNG][DataBases.hpp-52][6_21_12_59_27]select * from joblist 执行失败
+[WARINNG][DataBases.hpp-52][6_23_2_48_46]select * from questionlist 执行失败
+[WARINNG][DataBases.hpp-52][6_23_2_55_1]select * from questionlist 执行失败
+[WARINNG][DataBases.hpp-52][6_23_6_11_48]select * from joblist 执行失败
+[WARINNG][DataBases.hpp-52][6_23_6_15_2]select * from joblist 执行失败
+[WARINNG][DataBases.hpp-52][6_23_12_0_26]select * from questionlist 执行失败
+[WARINNG][DataBases.hpp-52][6_23_12_0_28]select * from joblist 执行失败
+[WARINNG][DataBases.hpp-52][6_24_8_32_40]select * from questionlist 执行失败
+[WARINNG][DataBases.hpp-52][6_24_8_32_40]select * from joblist 执行失败
+[WARINNG][DataBases.hpp-52][6_24_8_35_2]select * from questionlist 执行失败
+[WARINNG][DataBases.hpp-52][6_24_8_35_3]select * from joblist 执行失败
+[NORMAL][DataBases.hpp-192][6_26_1_45_2]Successfully linked MySQL
+[NORMAL][LoadBalancer.hpp-77][6_26_1_45_2]Successfully loaded configuration file: ./conf/ServerHost.conf
+[WARINNG][DataBases.hpp-52][6_28_19_31_3]select * from joblist 执行失败
