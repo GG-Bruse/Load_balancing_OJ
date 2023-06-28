@@ -115,3 +115,18 @@
 [NORMAL][RunService.hpp-55][5_14_19_45_4]Run Complete, signo:0
 [NORMAL][CompileService.hpp-48][5_14_19_45_5]./TempFile/19.1684064704770.cpp Compilation succeeded in generating ./TempFile/19.1684064704770.exe
 [NORMAL][RunService.hpp-55][5_14_19_45_5]Run Complete, signo:0
+[NORMAL][CompileService.hpp-48][5_14_21_15_3]./TempFile/20.1684070102533.cpp Compilation succeeded in generating ./TempFile/20.1684070102533.exe
+[NORMAL][RunService.hpp-55][5_14_21_15_3]Run Complete, signo:0
+[NORMAL][CompileService.hpp-48][5_26_22_58_14]./TempFile/21.1685113094232.cpp Compilation succeeded in generating ./TempFile/21.1685113094232.exe
+[NORMAL][RunService.hpp-55][5_26_22_58_14]Run Complete, signo:0
+[NORMAL][CompileService.hpp-48][5_27_22_34_57]./TempFile/22.1685198097427.cpp Compilation succeeded in generating ./TempFile/22.1685198097427.exe
+[NORMAL][RunService.hpp-55][5_27_22_34_57]Run Complete, signo:0
+[NORMAL][CompileService.hpp-48][6_2_22_50_28]./TempFile/23.1685717427895.cpp Compilation succeeded in generating ./TempFile/23.1685717427895.exe
+[NORMAL][RunService.hpp-55][6_2_22_50_28]Run Complete, signo:0
+[NORMAL][CompileService.hpp-48][6_14_23_35_48]./TempFile/24.1686756947417.cpp Compilation succeeded in generating ./TempFile/24.1686756947417.exe
+[NORMAL][RunService.hpp-55][6_14_23_35_48]Run Complete, signo:0
+[NORMAL][CompileService.hpp-48][6_14_23_56_40]./TempFile/25.1686758199991.cpp Compilation succeeded in generating ./TempFile/25.1686758199991.exe
+[NORMAL][RunService.hpp-55][6_14_23_56_40]Run Complete, signo:0
+[ERROR][CompileService.hpp-52][6_14_23_56_51]Compilation failed
+[NORMAL][CompileService.hpp-48][6_14_23_57_14]./TempFile/27.1686758233990.cpp Compilation succeeded in generating ./TempFile/27.1686758233990.exe
+[NORMAL][RunService.hpp-55][6_14_23_57_14]Run Complete, signo:0
