@@ -1,135 +1,44 @@
-[NORMAL][CompileService.hpp-48][5_3_2_25_41]./TempFile/1.1683051940670.cpp Compilation succeeded in generating ./TempFile/1.1683051940670.exe
-[NORMAL][RunService.hpp-55][5_3_2_25_41]Run Complete, signo:0
-[NORMAL][CompileService.hpp-48][5_3_15_2_59]./TempFile/2.1683097379479.cpp Compilation succeeded in generating ./TempFile/2.1683097379479.exe
-[NORMAL][RunService.hpp-55][5_3_15_2_59]Run Complete, signo:0
-[NORMAL][CompileService.hpp-48][5_3_15_3_0]./TempFile/3.1683097379922.cpp Compilation succeeded in generating ./TempFile/3.1683097379922.exe
-[NORMAL][RunService.hpp-55][5_3_15_3_0]Run Complete, signo:0
-[NORMAL][CompileService.hpp-48][5_3_15_3_0]./TempFile/4.1683097380317.cpp Compilation succeeded in generating ./TempFile/4.1683097380317.exe
-[NORMAL][RunService.hpp-55][5_3_15_3_0]Run Complete, signo:0
-[NORMAL][CompileService.hpp-48][5_3_15_3_1]./TempFile/5.1683097380774.cpp Compilation succeeded in generating ./TempFile/5.1683097380774.exe
-[NORMAL][RunService.hpp-55][5_3_15_3_1]Run Complete, signo:0
-[NORMAL][CompileService.hpp-48][5_3_15_3_1]./TempFile/6.1683097381175.cpp Compilation succeeded in generating ./TempFile/6.1683097381175.exe
-[NORMAL][RunService.hpp-55][5_3_15_3_1]Run Complete, signo:0
-[NORMAL][CompileService.hpp-48][5_3_15_3_2]./TempFile/7.1683097381646.cpp Compilation succeeded in generating ./TempFile/7.1683097381646.exe
-[NORMAL][RunService.hpp-55][5_3_15_3_2]Run Complete, signo:0
-[NORMAL][CompileService.hpp-48][5_3_15_3_2]./TempFile/8.1683097382133.cpp Compilation succeeded in generating ./TempFile/8.1683097382133.exe
-[NORMAL][RunService.hpp-55][5_3_15_3_2]Run Complete, signo:0
-[NORMAL][CompileService.hpp-48][5_3_15_3_2]./TempFile/9.1683097382570.cpp Compilation succeeded in generating ./TempFile/9.1683097382570.exe
-[NORMAL][RunService.hpp-55][5_3_15_3_2]Run Complete, signo:0
-[NORMAL][CompileService.hpp-48][5_3_15_3_3]./TempFile/10.1683097383078.cpp Compilation succeeded in generating ./TempFile/10.1683097383078.exe
-[NORMAL][RunService.hpp-55][5_3_15_3_3]Run Complete, signo:0
-[NORMAL][CompileService.hpp-48][5_3_15_3_3]./TempFile/11.1683097383559.cpp Compilation succeeded in generating ./TempFile/11.1683097383559.exe
-[NORMAL][RunService.hpp-55][5_3_15_3_3]Run Complete, signo:0
-[NORMAL][CompileService.hpp-48][5_3_15_3_4]./TempFile/12.1683097384040.cpp Compilation succeeded in generating ./TempFile/12.1683097384040.exe
-[NORMAL][RunService.hpp-55][5_3_15_3_4]Run Complete, signo:0
-[NORMAL][CompileService.hpp-48][5_3_15_3_5]./TempFile/13.1683097384865.cpp Compilation succeeded in generating ./TempFile/13.1683097384865.exe
-[NORMAL][RunService.hpp-55][5_3_15_3_5]Run Complete, signo:0
-[NORMAL][CompileService.hpp-48][5_3_15_3_5]./TempFile/14.1683097385591.cpp Compilation succeeded in generating ./TempFile/14.1683097385591.exe
-[NORMAL][RunService.hpp-55][5_3_15_3_5]Run Complete, signo:0
-[NORMAL][CompileService.hpp-48][5_3_15_3_6]./TempFile/15.1683097386217.cpp Compilation succeeded in generating ./TempFile/15.1683097386217.exe
-[NORMAL][RunService.hpp-55][5_3_15_3_6]Run Complete, signo:0
-[NORMAL][CompileService.hpp-48][5_3_15_3_7]./TempFile/16.1683097386653.cpp Compilation succeeded in generating ./TempFile/16.1683097386653.exe
-[NORMAL][RunService.hpp-55][5_3_15_3_7]Run Complete, signo:0
-[NORMAL][CompileService.hpp-48][5_3_15_3_7]./TempFile/17.1683097387091.cpp Compilation succeeded in generating ./TempFile/17.1683097387091.exe
-[NORMAL][RunService.hpp-55][5_3_15_3_7]Run Complete, signo:0
-[NORMAL][CompileService.hpp-48][5_3_15_3_7]./TempFile/18.1683097387585.cpp Compilation succeeded in generating ./TempFile/18.1683097387585.exe
-[NORMAL][RunService.hpp-55][5_3_15_3_7]Run Complete, signo:0
-[NORMAL][CompileService.hpp-48][5_3_15_3_8]./TempFile/19.1683097388117.cpp Compilation succeeded in generating ./TempFile/19.1683097388117.exe
-[NORMAL][RunService.hpp-55][5_3_15_3_8]Run Complete, signo:0
-[NORMAL][CompileService.hpp-48][5_3_15_3_9]./TempFile/20.1683097388668.cpp Compilation succeeded in generating ./TempFile/20.1683097388668.exe
-[NORMAL][RunService.hpp-55][5_3_15_3_9]Run Complete, signo:0
-[NORMAL][CompileService.hpp-48][5_3_15_9_1]./TempFile/21.1683097741114.cpp Compilation succeeded in generating ./TempFile/21.1683097741114.exe
-[NORMAL][RunService.hpp-55][5_3_15_9_1]Run Complete, signo:0
-[NORMAL][CompileService.hpp-48][5_3_15_9_2]./TempFile/22.1683097741712.cpp Compilation succeeded in generating ./TempFile/22.1683097741712.exe
-[NORMAL][RunService.hpp-55][5_3_15_9_2]Run Complete, signo:0
-[NORMAL][CompileService.hpp-48][5_3_15_9_4]./TempFile/23.1683097744314.cpp Compilation succeeded in generating ./TempFile/23.1683097744314.exe
-[NORMAL][RunService.hpp-55][5_3_15_9_4]Run Complete, signo:0
-[NORMAL][CompileService.hpp-48][5_3_15_9_5]./TempFile/24.1683097745020.cpp Compilation succeeded in generating ./TempFile/24.1683097745020.exe
-[NORMAL][RunService.hpp-55][5_3_15_9_5]Run Complete, signo:0
-[NORMAL][CompileService.hpp-48][5_3_15_9_5]./TempFile/25.1683097745424.cpp Compilation succeeded in generating ./TempFile/25.1683097745424.exe
-[NORMAL][RunService.hpp-55][5_3_15_9_5]Run Complete, signo:0
-[NORMAL][CompileService.hpp-48][5_3_15_9_6]./TempFile/26.1683097745993.cpp Compilation succeeded in generating ./TempFile/26.1683097745993.exe
-[NORMAL][RunService.hpp-55][5_3_15_9_6]Run Complete, signo:0
-[NORMAL][CompileService.hpp-48][5_3_15_9_6]./TempFile/27.1683097746394.cpp Compilation succeeded in generating ./TempFile/27.1683097746394.exe
-[NORMAL][RunService.hpp-55][5_3_15_9_6]Run Complete, signo:0
-[NORMAL][CompileService.hpp-48][5_3_15_9_7]./TempFile/28.1683097746789.cpp Compilation succeeded in generating ./TempFile/28.1683097746789.exe
-[NORMAL][RunService.hpp-55][5_3_15_9_7]Run Complete, signo:0
-[NORMAL][CompileService.hpp-48][5_3_15_9_7]./TempFile/29.1683097747370.cpp Compilation succeeded in generating ./TempFile/29.1683097747370.exe
-[NORMAL][RunService.hpp-55][5_3_15_9_7]Run Complete, signo:0
-[NORMAL][CompileService.hpp-48][5_3_15_9_8]./TempFile/30.1683097747850.cpp Compilation succeeded in generating ./TempFile/30.1683097747850.exe
-[NORMAL][RunService.hpp-55][5_3_15_9_8]Run Complete, signo:0
-[NORMAL][CompileService.hpp-48][5_3_21_53_35]./TempFile/31.1683122014613.cpp Compilation succeeded in generating ./TempFile/31.1683122014613.exe
-[NORMAL][RunService.hpp-55][5_3_21_53_35]Run Complete, signo:0
-[NORMAL][CompileService.hpp-48][5_3_21_54_18]./TempFile/32.1683122058576.cpp Compilation succeeded in generating ./TempFile/32.1683122058576.exe
-[NORMAL][RunService.hpp-55][5_3_21_54_18]Run Complete, signo:0
-[NORMAL][CompileService.hpp-48][5_3_22_4_10]./TempFile/33.1683122649671.cpp Compilation succeeded in generating ./TempFile/33.1683122649671.exe
-[NORMAL][RunService.hpp-55][5_3_22_4_12]Run Complete, signo:24
-[ERROR][CompileService.hpp-52][5_3_22_5_5]Compilation failed
-[NORMAL][CompileService.hpp-48][5_3_22_5_16]./TempFile/35.1683122715915.cpp Compilation succeeded in generating ./TempFile/35.1683122715915.exe
-[NORMAL][RunService.hpp-55][5_3_22_5_16]Run Complete, signo:0
-[ERROR][CompileService.hpp-52][5_3_22_5_19]Compilation failed
-[ERROR][CompileService.hpp-52][5_3_22_6_21]Compilation failed
-[ERROR][CompileService.hpp-52][5_3_22_6_39]Compilation failed
-[ERROR][CompileService.hpp-52][5_3_22_6_42]Compilation failed
-[NORMAL][CompileService.hpp-48][5_3_22_7_37]./TempFile/40.1683122857330.cpp Compilation succeeded in generating ./TempFile/40.1683122857330.exe
-[NORMAL][RunService.hpp-55][5_3_22_7_37]Run Complete, signo:0
-[NORMAL][CompileService.hpp-48][5_3_22_8_1]./TempFile/41.1683122881315.cpp Compilation succeeded in generating ./TempFile/41.1683122881315.exe
-[NORMAL][RunService.hpp-55][5_3_22_8_1]Run Complete, signo:11
-[NORMAL][CompileService.hpp-48][5_3_23_7_17]./TempFile/42.1683126437341.cpp Compilation succeeded in generating ./TempFile/42.1683126437341.exe
-[NORMAL][RunService.hpp-55][5_3_23_7_17]Run Complete, signo:6
-[NORMAL][CompileService.hpp-48][5_14_19_43_43]./TempFile/1.1684064622874.cpp Compilation succeeded in generating ./TempFile/1.1684064622874.exe
-[NORMAL][RunService.hpp-55][5_14_19_43_43]Run Complete, signo:0
-[NORMAL][CompileService.hpp-48][5_14_19_43_47]./TempFile/2.1684064626715.cpp Compilation succeeded in generating ./TempFile/2.1684064626715.exe
-[NORMAL][RunService.hpp-55][5_14_19_43_47]Run Complete, signo:0
-[NORMAL][CompileService.hpp-48][5_14_19_43_47]./TempFile/3.1684064627096.cpp Compilation succeeded in generating ./TempFile/3.1684064627096.exe
-[NORMAL][RunService.hpp-55][5_14_19_43_47]Run Complete, signo:0
-[NORMAL][CompileService.hpp-48][5_14_19_43_47]./TempFile/4.1684064627474.cpp Compilation succeeded in generating ./TempFile/4.1684064627474.exe
-[NORMAL][RunService.hpp-55][5_14_19_43_47]Run Complete, signo:0
-[NORMAL][CompileService.hpp-48][5_14_19_43_48]./TempFile/5.1684064627997.cpp Compilation succeeded in generating ./TempFile/5.1684064627997.exe
-[NORMAL][RunService.hpp-55][5_14_19_43_48]Run Complete, signo:0
-[NORMAL][CompileService.hpp-48][5_14_19_43_48]./TempFile/6.1684064628357.cpp Compilation succeeded in generating ./TempFile/6.1684064628357.exe
-[NORMAL][RunService.hpp-55][5_14_19_43_48]Run Complete, signo:0
-[NORMAL][CompileService.hpp-48][5_14_19_43_49]./TempFile/7.1684064628734.cpp Compilation succeeded in generating ./TempFile/7.1684064628734.exe
-[NORMAL][RunService.hpp-55][5_14_19_43_49]Run Complete, signo:0
-[NORMAL][CompileService.hpp-48][5_14_19_43_49]./TempFile/8.1684064629121.cpp Compilation succeeded in generating ./TempFile/8.1684064629121.exe
-[NORMAL][RunService.hpp-55][5_14_19_43_49]Run Complete, signo:0
-[NORMAL][CompileService.hpp-48][5_14_19_43_49]./TempFile/9.1684064629527.cpp Compilation succeeded in generating ./TempFile/9.1684064629527.exe
-[NORMAL][RunService.hpp-55][5_14_19_43_49]Run Complete, signo:0
-[NORMAL][CompileService.hpp-48][5_14_19_43_50]./TempFile/10.1684064629947.cpp Compilation succeeded in generating ./TempFile/10.1684064629947.exe
-[NORMAL][RunService.hpp-55][5_14_19_43_50]Run Complete, signo:0
-[NORMAL][CompileService.hpp-48][5_14_19_43_50]./TempFile/11.1684064630329.cpp Compilation succeeded in generating ./TempFile/11.1684064630329.exe
-[NORMAL][RunService.hpp-55][5_14_19_43_50]Run Complete, signo:0
-[NORMAL][CompileService.hpp-48][5_14_19_43_51]./TempFile/12.1684064630682.cpp Compilation succeeded in generating ./TempFile/12.1684064630682.exe
-[NORMAL][RunService.hpp-55][5_14_19_43_51]Run Complete, signo:0
-[NORMAL][CompileService.hpp-48][5_14_19_45_2]./TempFile/13.1684064702326.cpp Compilation succeeded in generating ./TempFile/13.1684064702326.exe
-[NORMAL][RunService.hpp-55][5_14_19_45_2]Run Complete, signo:0
-[NORMAL][CompileService.hpp-48][5_14_19_45_3]./TempFile/14.1684064702709.cpp Compilation succeeded in generating ./TempFile/14.1684064702709.exe
-[NORMAL][RunService.hpp-55][5_14_19_45_3]Run Complete, signo:0
-[NORMAL][CompileService.hpp-48][5_14_19_45_3]./TempFile/15.1684064703201.cpp Compilation succeeded in generating ./TempFile/15.1684064703201.exe
-[NORMAL][RunService.hpp-55][5_14_19_45_3]Run Complete, signo:0
-[NORMAL][CompileService.hpp-48][5_14_19_45_3]./TempFile/16.1684064703544.cpp Compilation succeeded in generating ./TempFile/16.1684064703544.exe
-[NORMAL][RunService.hpp-55][5_14_19_45_3]Run Complete, signo:0
-[NORMAL][CompileService.hpp-48][5_14_19_45_4]./TempFile/17.1684064704060.cpp Compilation succeeded in generating ./TempFile/17.1684064704060.exe
-[NORMAL][RunService.hpp-55][5_14_19_45_4]Run Complete, signo:0
-[NORMAL][CompileService.hpp-48][5_14_19_45_4]./TempFile/18.1684064704243.cpp Compilation succeeded in generating ./TempFile/18.1684064704243.exe
-[NORMAL][RunService.hpp-55][5_14_19_45_4]Run Complete, signo:0
-[NORMAL][CompileService.hpp-48][5_14_19_45_5]./TempFile/19.1684064704770.cpp Compilation succeeded in generating ./TempFile/19.1684064704770.exe
-[NORMAL][RunService.hpp-55][5_14_19_45_5]Run Complete, signo:0
-[NORMAL][CompileService.hpp-48][5_14_21_15_3]./TempFile/20.1684070102533.cpp Compilation succeeded in generating ./TempFile/20.1684070102533.exe
-[NORMAL][RunService.hpp-55][5_14_21_15_3]Run Complete, signo:0
-[NORMAL][CompileService.hpp-48][5_26_22_58_14]./TempFile/21.1685113094232.cpp Compilation succeeded in generating ./TempFile/21.1685113094232.exe
-[NORMAL][RunService.hpp-55][5_26_22_58_14]Run Complete, signo:0
-[NORMAL][CompileService.hpp-48][5_27_22_34_57]./TempFile/22.1685198097427.cpp Compilation succeeded in generating ./TempFile/22.1685198097427.exe
-[NORMAL][RunService.hpp-55][5_27_22_34_57]Run Complete, signo:0
-[NORMAL][CompileService.hpp-48][6_2_22_50_28]./TempFile/23.1685717427895.cpp Compilation succeeded in generating ./TempFile/23.1685717427895.exe
-[NORMAL][RunService.hpp-55][6_2_22_50_28]Run Complete, signo:0
-<<<<<<< HEAD
-[NORMAL][CompileService.hpp-48][6_14_23_35_48]./TempFile/24.1686756947417.cpp Compilation succeeded in generating ./TempFile/24.1686756947417.exe
-[NORMAL][RunService.hpp-55][6_14_23_35_48]Run Complete, signo:0
-[NORMAL][CompileService.hpp-48][6_14_23_56_40]./TempFile/25.1686758199991.cpp Compilation succeeded in generating ./TempFile/25.1686758199991.exe
-[NORMAL][RunService.hpp-55][6_14_23_56_40]Run Complete, signo:0
-[ERROR][CompileService.hpp-52][6_14_23_56_51]Compilation failed
-[NORMAL][CompileService.hpp-48][6_14_23_57_14]./TempFile/27.1686758233990.cpp Compilation succeeded in generating ./TempFile/27.1686758233990.exe
-[NORMAL][RunService.hpp-55][6_14_23_57_14]Run Complete, signo:0
-=======
->>>>>>> 87d502ad4be3a503bbb6c517c21e12e96da0f08f
+{"Code":"#include <iostream>\n#include <string>\n#include <vector>\n#include <map>\n#include <algorithm>\nusing namespace std;\n\nclass Solution\n{\npublic:\n    bool IsPalindrome(int x) {\n        //write code\n        return true;\n    }\n};\nbool Test1()\n{\n    bool ret = Solution().IsPalindrome(121);\n    if (ret) {\n        return true;\n    }\n    else {\n        std::cout << \"未通过测试用例1 : 121\" << std::endl;\n        return false;\n    }\n}\nbool Test2()\n{\n    bool ret = Solution().IsPalindrome(-10);\n    if (!ret) {\n        return true;\n    }\n    else {\n        std::cout << \"未通过测试用例1 : -10\" << std::endl;\n        return false;\n    }\n}\n\nint main()\n{\n    int ret1 = Test1();\n    int ret2 = Test2();\n    if (ret1 && ret2) {\n        std::cout << \"通过全部测试用例\" << endl;\n    }\n    return 0;\n}","CpuLimit":2,"Input":"","MemoryLimit":262144}
+
+{"Code":"#include <iostream>\n#include <string>\n#include <vector>\n#include <map>\n#include <algorithm>\nusing namespace std;\n\nclass Solution\n{\npublic:\n    bool IsPalindrome(int x) {\n        //write code\n        return true;\n    }\n};\nbool Test1()\n{\n    bool ret = Solution().IsPalindrome(121);\n    if (ret) {\n        return true;\n    }\n    else {\n        std::cout << \"未通过测试用例1 : 121\" << std::endl;\n        return false;\n    }\n}\nbool Test2()\n{\n    bool ret = Solution().IsPalindrome(-10);\n    if (!ret) {\n        return true;\n    }\n    else {\n        std::cout << \"未通过测试用例1 : -10\" << std::endl;\n        return false;\n    }\n}\n\nint main()\n{\n    int ret1 = Test1();\n    int ret2 = Test2();\n    if (ret1 && ret2) {\n        std::cout << \"通过全部测试用例\" << endl;\n    }\n    return 0;\n}","CpuLimit":2,"Input":"","MemoryLimit":262144}
+
+{"Code":"#include <iostream>\n#include <string>\n#include <vector>\n#include <map>\n#include <algorithm>\nusing namespace std;\n\nclass Solution\n{\npublic:\n    bool IsPalindrome(int x) {\n        //write code\n        return true;\n    }\n};\nbool Test1()\n{\n    bool ret = Solution().IsPalindrome(121);\n    if (ret) {\n        return true;\n    }\n    else {\n        std::cout << \"未通过测试用例1 : 121\" << std::endl;\n        return false;\n    }\n}\nbool Test2()\n{\n    bool ret = Solution().IsPalindrome(-10);\n    if (!ret) {\n        return true;\n    }\n    else {\n        std::cout << \"未通过测试用例1 : -10\" << std::endl;\n        return false;\n    }\n}\n\nint main()\n{\n    int ret1 = Test1();\n    int ret2 = Test2();\n    if (ret1 && ret2) {\n        std::cout << \"通过全部测试用例\" << endl;\n    }\n    return 0;\n}","CpuLimit":2,"Input":"","MemoryLimit":262144}
+
+1
+
+{"Reason":"Unknown error occurred","StatusCode":-2}
+
+{"Code":"#include <iostream>\n#include <string>\n#include <vector>\n#include <map>\n#include <algorithm>\nusing namespace std;\n\nclass Solution\n{\npublic:\n    bool IsPalindrome(int x) {\n        //write code\n        return true;\n    }\n};\nbool Test1()\n{\n    bool ret = Solution().IsPalindrome(121);\n    if (ret) {\n        return true;\n    }\n    else {\n        std::cout << \"未通过测试用例1 : 121\" << std::endl;\n        return false;\n    }\n}\nbool Test2()\n{\n    bool ret = Solution().IsPalindrome(-10);\n    if (!ret) {\n        return true;\n    }\n    else {\n        std::cout << \"未通过测试用例1 : -10\" << std::endl;\n        return false;\n    }\n}\n\nint main()\n{\n    int ret1 = Test1();\n    int ret2 = Test2();\n    if (ret1 && ret2) {\n        std::cout << \"通过全部测试用例\" << endl;\n    }\n    return 0;\n}","CpuLimit":2,"Input":"","MemoryLimit":262144}
+
+1
+
+{"Reason":"Unknown error occurred","StatusCode":-2}
+
+{"Code":"#include <iostream>\n#include <string>\n#include <vector>\n#include <map>\n#include <algorithm>\nusing namespace std;\n\nclass Solution\n{\npublic:\n    bool IsPalindrome(int x) {\n        //write code\n        return true;\n    }\n};\nbool Test1()\n{\n    bool ret = Solution().IsPalindrome(121);\n    if (ret) {\n        return true;\n    }\n    else {\n        std::cout << \"未通过测试用例1 : 121\" << std::endl;\n        return false;\n    }\n}\nbool Test2()\n{\n    bool ret = Solution().IsPalindrome(-10);\n    if (!ret) {\n        return true;\n    }\n    else {\n        std::cout << \"未通过测试用例1 : -10\" << std::endl;\n        return false;\n    }\n}\n\nint main()\n{\n    int ret1 = Test1();\n    int ret2 = Test2();\n    if (ret1 && ret2) {\n        std::cout << \"通过全部测试用例\" << endl;\n    }\n    return 0;\n}","CpuLimit":2,"Input":"","MemoryLimit":262144}
+
+1
+
+{"Reason":"Unknown error occurred","StatusCode":-2}
+
+{"Code":"#include <iostream>\n#include <string>\n#include <vector>\n#include <map>\n#include <algorithm>\nusing namespace std;\n\nclass Solution\n{\npublic:\n    bool IsPalindrome(int x) {\n        //write code\n        return true;\n    }\n};\nbool Test1()\n{\n    bool ret = Solution().IsPalindrome(121);\n    if (ret) {\n        return true;\n    }\n    else {\n        std::cout << \"未通过测试用例1 : 121\" << std::endl;\n        return false;\n    }\n}\nbool Test2()\n{\n    bool ret = Solution().IsPalindrome(-10);\n    if (!ret) {\n        return true;\n    }\n    else {\n        std::cout << \"未通过测试用例1 : -10\" << std::endl;\n        return false;\n    }\n}\n\nint main()\n{\n    int ret1 = Test1();\n    int ret2 = Test2();\n    if (ret1 && ret2) {\n        std::cout << \"通过全部测试用例\" << endl;\n    }\n    return 0;\n}","CpuLimit":2,"Input":"","MemoryLimit":262144}
+
+[NORMAL][CompileService.hpp-48][9_17_22_49_5]./TempFile/3.1694962145562.cpp Compilation succeeded in generating ./TempFile/3.1694962145562.exe
+[NORMAL][RunService.hpp-55][9_17_22_49_5]Run Complete, signo:0
+{"Reason":"Compile and run successfully","StatusCode":0,"Stderr":"","Stdout":"未通过测试用例1 : -10\n"}
+
+{"Code":"#include <iostream>\n#include <string>\n#include <vector>\n#include <map>\n#include <algorithm>\nusing namespace std;\n\nclass Solution\n{\npublic:\n    bool IsPalindrome(int x) {\n        if(x == -10) return false;\n        return true;\n    }\n};\nbool Test1()\n{\n    bool ret = Solution().IsPalindrome(121);\n    if (ret) {\n        return true;\n    }\n    else {\n        std::cout << \"未通过测试用例1 : 121\" << std::endl;\n        return false;\n    }\n}\nbool Test2()\n{\n    bool ret = Solution().IsPalindrome(-10);\n    if (!ret) {\n        return true;\n    }\n    else {\n        std::cout << \"未通过测试用例1 : -10\" << std::endl;\n        return false;\n    }\n}\n\nint main()\n{\n    int ret1 = Test1();\n    int ret2 = Test2();\n    if (ret1 && ret2) {\n        std::cout << \"通过全部测试用例\" << endl;\n    }\n    return 0;\n}","CpuLimit":2,"Input":"","MemoryLimit":262144}
+
+[NORMAL][CompileService.hpp-48][9_17_22_49_27]./TempFile/4.1694962166693.cpp Compilation succeeded in generating ./TempFile/4.1694962166693.exe
+[NORMAL][RunService.hpp-55][9_17_22_49_27]Run Complete, signo:0
+{"Reason":"Compile and run successfully","StatusCode":0,"Stderr":"","Stdout":"通过全部测试用例\n"}
+
+{"Code":"#include <iostream>\n#include <string>\n#include <vector>\n#include <map>\n#include <algorithm>\nusing namespace std;\n\nclass Solution\n{\npublic:\n    bool IsPalindrome(int x) {\n        int* ptr = new int[10000000000000000000000];\n        return true;\n    }\n};\nbool Test1()\n{\n    bool ret = Solution().IsPalindrome(121);\n    if (ret) {\n        return true;\n    }\n    else {\n        std::cout << \"未通过测试用例1 : 121\" << std::endl;\n        return false;\n    }\n}\nbool Test2()\n{\n    bool ret = Solution().IsPalindrome(-10);\n    if (!ret) {\n        return true;\n    }\n    else {\n        std::cout << \"未通过测试用例1 : -10\" << std::endl;\n        return false;\n    }\n}\n\nint main()\n{\n    int ret1 = Test1();\n    int ret2 = Test2();\n    if (ret1 && ret2) {\n        std::cout << \"通过全部测试用例\" << endl;\n    }\n    return 0;\n}","CpuLimit":2,"Input":"","MemoryLimit":262144}
+
+[NORMAL][CompileService.hpp-48][9_17_22_49_50]./TempFile/5.1694962190439.cpp Compilation succeeded in generating ./TempFile/5.1694962190439.exe
+[NORMAL][RunService.hpp-55][9_17_22_49_50]Run Complete, signo:6
+3
+
+{"Reason":"Memory limit exceeded","StatusCode":6}
+
+[NORMAL][CompileService.hpp-48][9_17_22_51_28]./TempFile/1.1694962288274.cpp Compilation succeeded in generating ./TempFile/1.1694962288274.exe
+[NORMAL][RunService.hpp-55][9_17_22_51_28]Run Complete, signo:0
